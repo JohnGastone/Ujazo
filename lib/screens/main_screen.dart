@@ -23,8 +23,8 @@ class MainScreen extends StatelessWidget {
         flexibleSpace: Container(
           decoration: const BoxDecoration(
               borderRadius: BorderRadius.only(
-                  bottomLeft: Radius.circular(-30),
-                  bottomRight: Radius.circular(-30)),
+                  bottomLeft: Radius.circular(15),
+                  bottomRight: Radius.circular(15)),
               color: Color.fromARGB(255, 226, 219, 219)),
         ),
         elevation: 2,

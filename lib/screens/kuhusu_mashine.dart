@@ -12,8 +12,12 @@ class KuhusuMashine extends StatelessWidget {
     return Scaffold(
       drawer: SideMenu(),
       appBar: AppBar(
+        shape: RoundedRectangleBorder(
+            borderRadius: BorderRadius.only(
+                bottomLeft: Radius.circular(15),
+                bottomRight: Radius.circular(15))),
         title: const Text('Kuhusu Mashine'),
-        backgroundColor: Color.fromARGB(255, 142, 153, 148),
+        backgroundColor: Color.fromARGB(255, 211, 201, 201),
       ),
       body: Container(
         decoration: const BoxDecoration(

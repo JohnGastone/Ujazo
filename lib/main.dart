@@ -1,3 +1,4 @@
+import 'package:dashboard/screens/intro_Screen.dart';
 import 'package:dashboard/screens/kazi_mpya.dart';
 import 'package:dashboard/screens/main_screen.dart';
 import 'package:flutter/material.dart';
@@ -12,7 +13,7 @@ void main() {
     initialRoute: '/',
     routes: {
       // When navigating to the "/" route, build the FirstScreen widget.
-      '/': (context) => const MainScreen(),
+      '/': (context) => TestScreen(),
       // When navigating to the "/second" route, build the SecondScreen widget.
       '/second': (context) => const KaziMpya(),
     },

@@ -38,6 +38,7 @@ dependencies:
   ternav_icons: ^1.0.0
   percent_indicator: ^4.2.2
   google_fonts:
+  intro_screen_onboarding_flutter: ^1.0.0
 
 dev_dependencies:
   flutter_test:

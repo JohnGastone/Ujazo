@@ -23,7 +23,7 @@ final List<Course> course = [
       text: "Soda",
       lessons: "Lita 350",
       imageUrl: "images/soda.png",
-      percent: 25,
+      percent: 59,
       backImage: "images/box/box3.png",
       color: kGreen),
   Course(
