@@ -29,7 +29,7 @@ class SideMenu extends StatelessWidget {
           ),
           DrawerListTile(
             icon: TernavIcons.lightOutline.home_2,
-            title: "Nyumbani",
+            title: "Nyumbani.",
             onTap: () {
               // Migrating to Kazi Mpya screen
               Navigator.pop(context);
@@ -39,7 +39,7 @@ class SideMenu extends StatelessWidget {
           ),
           DrawerListTile(
             icon: TernavIcons.lightOutline.add,
-            title: "Kazi Mpya",
+            title: "Kazi Mpya.",
             onTap: () {
               // Migrating to Kazi Mpya screen
               Navigator.pop(context);
@@ -49,7 +49,7 @@ class SideMenu extends StatelessWidget {
           ),
           DrawerListTile(
             icon: TernavIcons.lightOutline.calender_2,
-            title: "Kazi Zilizopita",
+            title: "Kazi Zilizopita.",
             onTap: () {
               // Migrating to Kazi Zilizopita screen
               Navigator.pop(context);
@@ -59,7 +59,7 @@ class SideMenu extends StatelessWidget {
           ),
           DrawerListTile(
               icon: TernavIcons.lightOutline.document,
-              title: "Ripoti",
+              title: "Ripoti.",
               onTap: () {
                 Navigator.pop(context);
                 Navigator.of(context).push(
@@ -67,7 +67,7 @@ class SideMenu extends StatelessWidget {
               }),
           DrawerListTile(
             icon: TernavIcons.lightOutline.settings,
-            title: "Kuhusu Mashine",
+            title: "Kuhusu Mashine.",
             onTap: () {
               // Migrating to Kuhusu Mashine screen
               Navigator.pop(context);
