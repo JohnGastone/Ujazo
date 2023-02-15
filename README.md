@@ -10,6 +10,6 @@ Dashboard App UI build using Flutter. Made with GridView, Drawer, List, Bar Char
 
 ### App Screenshots
 <img src="images/ss/1.jpeg" width="250"> <img src="images/ss/2.jpeg" width="250"> <img src="images/ss/3.jpeg" width="250"> 
-<img src="images/ss/4.jpeg" width="250"> <img src="images/ss/5.jpeg" width="250">
+<img src="images/ss/4.jpeg" width="250">
 
 
