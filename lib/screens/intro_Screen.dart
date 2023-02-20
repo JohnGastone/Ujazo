@@ -31,22 +31,22 @@ class TestScreen extends StatelessWidget {
     Introduction(
       title: 'Buy & Sell',
       subTitle: 'Browse the menu and order directly from the application',
-      imageUrl: 'images/intro/deli.jpg',
+      imageUrl: 'images/pic/img1.png',
     ),
     Introduction(
       title: 'Delivery',
       subTitle: 'Your order will be immediately collected and',
-      imageUrl: 'images/intro/Dk.png',
+      imageUrl: 'images/pic/img2.png',
     ),
     Introduction(
       title: 'Receive Money',
       subTitle: 'Pick up delivery at your door and enjoy groceries',
-      imageUrl: 'images/intro/deli2.jpg',
+      imageUrl: 'images/pic/img3.png',
     ),
     Introduction(
       title: 'Finish',
       subTitle: 'Browse the menu and order directly from the application',
-      imageUrl: 'assets/images/onboarding3.png',
+      imageUrl: 'images/pic/img4.png',
     ),
   ];
 
