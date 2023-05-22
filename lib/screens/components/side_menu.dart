@@ -23,7 +23,7 @@ class SideMenu extends StatelessWidget {
         shrinkWrap: true,
         children: [
           Image.asset(
-            "images/sonak_logo-removebg.png",
+            "images/Dukani.png",
             height: 160,
             width: 160,
           ),
