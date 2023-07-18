@@ -29,13 +29,13 @@ class MyApp extends StatelessWidget {
 class TestScreen extends StatelessWidget {
   final List<Introduction> list = [
     Introduction(
-      title: 'Buy & Sell',
-      subTitle: 'Browse the menu and order directly from the application',
+      title: 'Uendeshaji',
+      subTitle: 'Fuatilia ujazo wa vinywaji mbalimbali',
       imageUrl: 'images/pic/img1.png',
     ),
     Introduction(
-      title: 'Delivery',
-      subTitle: 'Your order will be immediately collected and',
+      title: 'Taarifa',
+      subTitle: 'Tengeneza Ripoti za kazi',
       imageUrl: 'images/pic/img2.png',
     ),
     Introduction(
