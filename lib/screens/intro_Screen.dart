@@ -18,7 +18,7 @@ class MyApp extends StatelessWidget {
       title: 'Flutter Demo',
       theme: ThemeData(
         // primarySwatch: Color.fromARGB(23, 23, 32, 43),
-        // backgroundColor: Color.fromARGB(255, 36, 34, 34),
+        backgroundColor: const Color.fromARGB(255, 36, 34, 34),
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
       home: TestScreen(),
