@@ -23,7 +23,7 @@ class SideMenu extends StatelessWidget {
         shrinkWrap: true,
         children: [
           Image.asset(
-            "images/Ujazo-.png",
+            "images/Ujazo.png",
             height: 160,
             width: 160,
           ),
