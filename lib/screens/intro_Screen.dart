@@ -31,12 +31,12 @@ class TestScreen extends StatelessWidget {
     Introduction(
       title: 'Uendeshaji',
       subTitle: 'Fuatilia ujazo wa vinywaji mbalimbali',
-      imageUrl: 'images/pic/img1.png',
+      imageUrl: 'images/pic/glass-bottle.png',
     ),
     Introduction(
       title: 'Taarifa',
       subTitle: 'Tengeneza Ripoti za kazi',
-      imageUrl: 'images/pic/img2.png',
+      imageUrl: 'images/pic/reports.png',
     ),
     Introduction(
       title: 'Receive Money',
