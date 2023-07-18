@@ -39,14 +39,14 @@ class TestScreen extends StatelessWidget {
       imageUrl: 'images/pic/reports.png',
     ),
     Introduction(
-      title: 'Receive Money',
-      subTitle: 'Pick up delivery at your door and enjoy groceries',
-      imageUrl: 'images/pic/img3.png',
+      title: 'Pendekeza',
+      subTitle: 'Shauri maboresho ya huduma',
+      imageUrl: 'images/pic/reward.png',
     ),
     Introduction(
-      title: 'Finish',
-      subTitle: 'Browse the menu and order directly from the application',
-      imageUrl: 'images/pic/img4.png',
+      title: 'Data',
+      subTitle: 'Tuma data kwa urahisi',
+      imageUrl: 'images/pic/data.png',
     ),
   ];
 
