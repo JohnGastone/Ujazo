@@ -1,6 +1,6 @@
-# Mobile DashBoard Ui
+# Ujazo
 
-Dashboard App UI build using Flutter. Made with GridView, Drawer, List, Bar Chart.
+Ujazo App UI build using Flutter. Made with GridView, Drawer, List, Bar Chart.
 
 ## Libraries & Tools Used.
 - [fl_chart](https://pub.dev/packages/fl_chart): Version-0.36.1
@@ -10,6 +10,6 @@ Dashboard App UI build using Flutter. Made with GridView, Drawer, List, Bar Char
 
 ### App Screenshots
 <img src="images/ss/1.jpeg" width="250"> <img src="images/ss/2.jpeg" width="250"> <img src="images/ss/3.jpeg" width="250"> 
-<img src="images/ss/4.jpeg" width="250">
+<img src="images/sideMenu.png" width="250">
 
 
