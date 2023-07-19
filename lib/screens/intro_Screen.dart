@@ -44,7 +44,7 @@ class TestScreen extends StatelessWidget {
       imageUrl: 'images/pic/reward.png',
     ),
     Introduction(
-      title: 'Data',
+      title: 'Data datani',
       subTitle: 'Tuma data kwa urahisi',
       imageUrl: 'images/pic/data.png',
     ),
