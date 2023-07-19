@@ -9,7 +9,7 @@ Ujazo App UI build using Flutter. Made with GridView, Drawer, List, Bar Chart.
 - [cupertino_icons](https://pub.dev/packages/cupertino_icons): Version-1.0.2
 
 ### App Screenshots
-<img src="images/ss/1.jpeg" width="250"> <img src="images/ss/2.jpeg" width="250"> <img src="images/ss/3.jpeg" width="250"> 
-<img src="images/ss/sideMenu.png" width="250">
+<img src="images/ss/new.png" width="250"> <img src="images/ss/2.jpeg" width="250"> <img src="images/ss/3.jpeg" width="250"> 
+<img src="images/ss/jazo.png" width="250">
 
 
