@@ -23,19 +23,19 @@ class BarChartContent extends StatelessWidget {
             getTitles: (value) {
               switch (value.toInt()) {
                 case 1:
-                  return 'J3';
+                  return 'Mon';
                 case 2:
-                  return 'J4';
+                  return 'Tue';
                 case 3:
-                  return 'J5';
+                  return 'Wed';
                 case 4:
-                  return 'Alh';
+                  return 'Thu';
                 case 5:
-                  return 'Ij';
+                  return 'Fri';
                 case 6:
-                  return 'J1';
+                  return 'Sat';
                 case 7:
-                  return 'J2';
+                  return 'Sun';
               }
               return '';
             },
