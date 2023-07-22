@@ -3,13 +3,14 @@
 import 'package:dashboard/screens/components/chart_container.dart';
 import 'package:dashboard/widgets/grafu_mwezi.dart';
 import 'package:dashboard/widgets/grafu_wiki.dart';
-import 'package:dashboard/widgets/bar_chart.dart';
+import 'package:dashboard/widgets/bar_chart_wiki.dart';
 import 'package:dashboard/widgets/courses_grid.dart';
 import 'package:dashboard/widgets/planing_grid.dart';
 import 'package:dashboard/widgets/statistics_grid.dart';
 import 'package:flutter/material.dart';
 
 import '../constant.dart';
+import '../widgets/bar_chart_mwezi.dart';
 import '../widgets/planing_header.dart';
 import 'components/side_menu.dart';
 
@@ -135,9 +136,9 @@ class MainScreen extends StatelessWidget {
                 height: 15,
               ),
               const ActivityHeaderWiki(),
-              const ChartContainer(chart: BarChartContent()),
+              const ChartContainer(chart: BarChartContentWiki()),
               const ActivityHeaderMwezi(),
-              const ChartContainer(chart: BarChartContent())
+              const ChartContainer(chart: BarChartContentMwezi())
             ],
           ),
         ),

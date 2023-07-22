@@ -6,8 +6,8 @@ import 'package:flutter/widgets.dart';
 
 import '../data/chart_data.dart';
 
-class BarChartContent extends StatelessWidget {
-  const BarChartContent({Key? key}) : super(key: key);
+class BarChartContentWiki extends StatelessWidget {
+  const BarChartContentWiki({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
