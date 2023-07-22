@@ -4,8 +4,8 @@ import 'package:flutter/material.dart';
 
 import 'components/side_menu.dart';
 
-class KuhusuMashine extends StatelessWidget {
-  const KuhusuMashine({super.key});
+class KuhusuOpareta extends StatelessWidget {
+  const KuhusuOpareta({super.key});
 
   @override
   Widget build(BuildContext context) {

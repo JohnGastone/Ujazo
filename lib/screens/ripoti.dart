@@ -27,73 +27,73 @@ class Ripoti extends StatelessWidget {
         ),
       );
 
-  Widget buildRoundeCard() => Card(
-        color: Colors.white38,
-        shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(25)),
-        shadowColor: Colors.black87,
-        elevation: 10,
-        child: Padding(
-          padding: const EdgeInsets.all(12.0),
-          child: Column(children: [
-            Text(
-              'Ripoti Ya Wiki.',
-              style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
-            ),
-            SizedBox(
-              height: 12,
-            ),
-            Text(
-              'Vinywaji Vilivyojazwa.',
-              style: TextStyle(fontSize: 35, fontWeight: FontWeight.normal),
-            )
-          ]),
-        ),
-      );
+  // Widget buildRoundeCard() => Card(
+  //       color: Colors.white38,
+  //       shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(25)),
+  //       shadowColor: Colors.black87,
+  //       elevation: 10,
+  //       child: Padding(
+  //         padding: const EdgeInsets.all(12.0),
+  //         child: Column(children: [
+  //           Text(
+  //             'Ripoti Ya Wiki.',
+  //             style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
+  //           ),
+  //           SizedBox(
+  //             height: 12,
+  //           ),
+  //           Text(
+  //             'Vinywaji Vilivyojazwa.',
+  //             style: TextStyle(fontSize: 35, fontWeight: FontWeight.normal),
+  //           )
+  //         ]),
+  //       ),
+  //     );
 
-  Widget buildColorCard(context) => Card(
-        color: Colors.white38,
-        clipBehavior: Clip.antiAlias,
-        shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(25)),
-        shadowColor: Color.fromARGB(221, 139, 124, 124),
-        elevation: 15,
-        child: Container(
-          decoration: BoxDecoration(
-              gradient: LinearGradient(
-            colors: [
-              Color.fromARGB(255, 238, 227, 237),
-              Color.fromARGB(255, 173, 118, 114)
-            ],
-            begin: Alignment.topCenter,
-            end: Alignment.bottomCenter,
-          )),
-          padding: const EdgeInsets.all(12.0),
-          child: Column(children: [
-            Text(
-              'Ripoti ya siku.',
-              style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
-            ),
-            SizedBox(
-              height: 12,
-            ),
-            Text(
-              'Vinywaji Vilivyojazwa.',
-              style: TextStyle(fontSize: 35, fontWeight: FontWeight.normal),
-            ),
-            Ink.image(
-              image: AssetImage('./images/waterdrop.png'),
-              child: InkWell(
-                onTap: () {
-                  Navigator.pop(context);
-                  Navigator.of(context).push(MaterialPageRoute(
-                      builder: (context) => const KaziMpya()));
-                },
-              ),
-              height: 50,
-              fit: BoxFit.cover,
-            ),
-          ]),
-        ),
-      );
+  // Widget buildColorCard(context) => Card(
+  //       color: Colors.white38,
+  //       clipBehavior: Clip.antiAlias,
+  //       shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(25)),
+  //       shadowColor: Color.fromARGB(221, 139, 124, 124),
+  //       elevation: 15,
+  //       child: Container(
+  //         decoration: BoxDecoration(
+  //             gradient: LinearGradient(
+  //           colors: [
+  //             Color.fromARGB(255, 238, 227, 237),
+  //             Color.fromARGB(255, 173, 118, 114)
+  //           ],
+  //           begin: Alignment.topCenter,
+  //           end: Alignment.bottomCenter,
+  //         )),
+  //         padding: const EdgeInsets.all(12.0),
+  //         child: Column(children: [
+  //           Text(
+  //             'Ripoti ya siku.',
+  //             style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
+  //           ),
+  //           SizedBox(
+  //             height: 12,
+  //           ),
+  //           Text(
+  //             'Vinywaji Vilivyojazwa.',
+  //             style: TextStyle(fontSize: 35, fontWeight: FontWeight.normal),
+  //           ),
+  //           Ink.image(
+  //             image: AssetImage('./images/waterdrop.png'),
+  //             child: InkWell(
+  //               onTap: () {
+  //                 Navigator.pop(context);
+  //                 Navigator.of(context).push(MaterialPageRoute(
+  //                     builder: (context) => const KaziMpya()));
+  //               },
+  //             ),
+  //             height: 50,
+  //             fit: BoxFit.cover,
+  //           ),
+  //         ]),
+  //       ),
+  //     );
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -115,11 +115,11 @@ class Ripoti extends StatelessWidget {
           SizedBox(
             height: 20,
           ),
-          buildRoundeCard(),
+          // buildRoundeCard(),
           SizedBox(
             height: 20,
           ),
-          buildColorCard(context)
+          // buildColorCard(context)
         ],
       ),
     );

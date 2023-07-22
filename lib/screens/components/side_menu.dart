@@ -3,6 +3,7 @@
 import 'package:dashboard/screens/kazi_mpya.dart';
 import 'package:dashboard/screens/kazi_zilizopita.dart';
 import 'package:dashboard/screens/kuhusu_mashine.dart';
+import 'package:dashboard/screens/kuhusu_opareta.dart';
 import 'package:dashboard/screens/main_screen.dart';
 import 'package:dashboard/screens/ripoti.dart';
 import 'package:flutter/material.dart';
@@ -66,13 +67,13 @@ class SideMenu extends StatelessWidget {
                     MaterialPageRoute(builder: (context) => const Ripoti()));
               }),
           DrawerListTile(
-            icon: TernavIcons.lightOutline.settings,
+            icon: TernavIcons.lightOutline.profile,
             title: "Kuhusu Opareta.",
             onTap: () {
               // Migrating to Kuhusu Opareta screen
               Navigator.pop(context);
               Navigator.of(context).push(MaterialPageRoute(
-                  builder: (context) => const KuhusuMashine()));
+                  builder: (context) => const KuhusuOpareta()));
             },
           ),
           DrawerListTile(
