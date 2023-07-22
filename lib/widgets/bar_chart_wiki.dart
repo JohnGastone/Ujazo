@@ -4,7 +4,7 @@ import 'package:fl_chart/fl_chart.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 
-import '../data/chart_data.dart';
+import '../data/chart_data_wiki.dart';
 
 class BarChartContentWiki extends StatelessWidget {
   const BarChartContentWiki({Key? key}) : super(key: key);
