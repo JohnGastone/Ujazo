@@ -36,6 +36,8 @@ class BarChartContent extends StatelessWidget {
                   return 'J1';
                 case 7:
                   return 'J2';
+                case 8:
+                  return 'Wastani';
               }
               return '';
             },

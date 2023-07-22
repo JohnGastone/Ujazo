@@ -14,3 +14,4 @@ const kYellow1 = Color.fromARGB(255, 218, 195, 126);
 const kNew = Color.fromARGB(255, 132, 216, 111);
 const kNew2 = Color.fromARGB(255, 212, 61, 174);
 const kNew3 = Color.fromARGB(255, 233, 154, 130);
+const kNew4 = Color.fromARGB(255, 163, 141, 134);

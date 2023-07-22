@@ -27,4 +27,7 @@ List<BarChartGroupData> barChartGroupData = [
   BarChartGroupData(x: 7, barRods: [
     BarChartRodData(y: 12.2, width: 25, colors: [kNew]),
   ]),
+  BarChartGroupData(x: 8, barRods: [
+    BarChartRodData(y: 11.31, width: 25, colors: [kNew4]),
+  ])
 ];

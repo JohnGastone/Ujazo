@@ -2,8 +2,8 @@ import 'package:flutter/material.dart';
 
 import '../constant.dart';
 
-class ActivityHeader extends StatelessWidget {
-  const ActivityHeader({Key? key}) : super(key: key);
+class ActivityHeaderWiki extends StatelessWidget {
+  const ActivityHeaderWiki({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -11,7 +11,7 @@ class ActivityHeader extends StatelessWidget {
       mainAxisAlignment: MainAxisAlignment.spaceBetween,
       children: [
         const Text(
-          "Grafu",
+          "Grafu ya Wiki",
           style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold),
         ),
         Row(
