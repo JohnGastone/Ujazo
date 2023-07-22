@@ -16,12 +16,12 @@ class KuhusuMashine extends StatelessWidget {
             borderRadius: BorderRadius.only(
                 bottomLeft: Radius.circular(15),
                 bottomRight: Radius.circular(15))),
-        title: const Text('Kuhusu Mashine'),
+        title: const Text('Kuhusu Opareta'),
         backgroundColor: Color.fromARGB(255, 211, 201, 201),
       ),
       body: Container(
         decoration: const BoxDecoration(
-            image: DecorationImage(image: AssetImage('images/mashine.png'))),
+            image: DecorationImage(image: AssetImage('images/opareta.png'))),
       ),
     );
   }

@@ -67,6 +67,16 @@ class SideMenu extends StatelessWidget {
               }),
           DrawerListTile(
             icon: TernavIcons.lightOutline.settings,
+            title: "Kuhusu Opareta.",
+            onTap: () {
+              // Migrating to Kuhusu Opareta screen
+              Navigator.pop(context);
+              Navigator.of(context).push(MaterialPageRoute(
+                  builder: (context) => const KuhusuMashine()));
+            },
+          ),
+          DrawerListTile(
+            icon: TernavIcons.lightOutline.settings,
             title: "Kuhusu Mashine.",
             onTap: () {
               // Migrating to Kuhusu Mashine screen
