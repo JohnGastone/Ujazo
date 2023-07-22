@@ -11,7 +11,7 @@ class ActivityHeaderMwezi extends StatelessWidget {
       mainAxisAlignment: MainAxisAlignment.spaceBetween,
       children: [
         const Text(
-          "Grafu ya Wiki",
+          "Grafu ya Mwezi",
           style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold),
         ),
         Row(
