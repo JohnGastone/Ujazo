@@ -1,32 +1,32 @@
 import 'package:dashboard/constant.dart';
 import 'package:flutter/material.dart';
-import '../model/course_model.dart';
+import '../model/kinywaji_model.dart';
 import '../model/planing_model.dart';
 import '../model/statistics_model.dart';
 
-final List<Course> course = [
-  Course(
+final List<Kinywaji> kinywaji = [
+  Kinywaji(
       text: "Juice",
       lessons: "Lita 380",
       imageUrl: "images/juice.png",
       percent: 75,
       backImage: "images/box/box1.png",
       color: kDarkBlue),
-  Course(
+  Kinywaji(
       text: "Maji",
       lessons: "Lita 730",
       imageUrl: "images/water.png",
       percent: 50,
       backImage: "images/box/box2.png",
       color: kOrange),
-  Course(
+  Kinywaji(
       text: "Soda",
       lessons: "Lita 350",
       imageUrl: "images/soda.png",
       percent: 59,
       backImage: "images/box/box3.png",
       color: kGreen),
-  Course(
+  Kinywaji(
       text: "Mvinyo",
       lessons: "Lita 75",
       imageUrl: "images/wine.png",

@@ -106,7 +106,7 @@ class MainScreen extends StatelessWidget {
               const SizedBox(
                 height: 10,
               ),
-              const CourseGrid(),
+              const KinywajiGrid(),
               const SizedBox(
                 height: 20,
               ),

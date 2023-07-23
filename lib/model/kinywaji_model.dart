@@ -1,6 +1,6 @@
 import 'dart:ui';
 
-class Course {
+class Kinywaji {
   final String text;
   final String lessons;
   final String imageUrl;
@@ -8,7 +8,7 @@ class Course {
   final String backImage;
   final Color color;
 
-  Course({
+  Kinywaji({
     required this.text,
     required this.lessons,
     required this.imageUrl,

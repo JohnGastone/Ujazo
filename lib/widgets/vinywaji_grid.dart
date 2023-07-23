@@ -2,13 +2,13 @@ import 'package:dashboard/data/data.dart';
 import 'package:flutter/material.dart';
 import 'package:percent_indicator/percent_indicator.dart';
 
-class CourseGrid extends StatelessWidget {
-  const CourseGrid({Key? key}) : super(key: key);
+class KinywajiGrid extends StatelessWidget {
+  const KinywajiGrid({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
     return GridView.builder(
-        itemCount: course.length,
+        itemCount: kinywaji.length,
         physics: const NeverScrollableScrollPhysics(),
         shrinkWrap: true,
         gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
@@ -17,7 +17,8 @@ class CourseGrid extends StatelessWidget {
           return Container(
             decoration: BoxDecoration(
               image: DecorationImage(
-                  image: AssetImage(course[index].backImage), fit: BoxFit.fill),
+                  image: AssetImage(kinywaji[index].backImage),
+                  fit: BoxFit.fill),
             ),
             child: Padding(
               padding: const EdgeInsets.all(16),
@@ -29,11 +30,11 @@ class CourseGrid extends StatelessWidget {
                     mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                     children: [
                       Text(
-                        course[index].text,
+                        kinywaji[index].text,
                         style: const TextStyle(color: Colors.white),
                       ),
                       Text(
-                        course[index].lessons,
+                        kinywaji[index].lessons,
                         style: const TextStyle(color: Colors.white),
                       ),
                       CircularPercentIndicator(
@@ -42,10 +43,10 @@ class CourseGrid extends StatelessWidget {
                         animation: true,
                         animationDuration: 1500,
                         circularStrokeCap: CircularStrokeCap.round,
-                        percent: course[index].percent / 100,
+                        percent: kinywaji[index].percent / 100,
                         progressColor: Colors.white,
                         center: Text(
-                          "${course[index].percent}%",
+                          "${kinywaji[index].percent}%",
                           style: const TextStyle(color: Colors.white),
                         ),
                       )
@@ -55,7 +56,7 @@ class CourseGrid extends StatelessWidget {
                     mainAxisAlignment: MainAxisAlignment.center,
                     children: [
                       Image.asset(
-                        course[index].imageUrl,
+                        kinywaji[index].imageUrl,
                         height: 110,
                       )
                     ],
