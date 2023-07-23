@@ -19,7 +19,7 @@ List<BarChartGroupData> barChartGroupData = [
     BarChartRodData(y: 14.4, width: 35, colors: [kDarkBlue1]),
   ]),
   BarChartGroupData(x: 5, barRods: [
-    BarChartRodData(y: 12.7, width: 35, colors: [kDarkBlue]),
+    BarChartRodData(y: 12.7, width: 35, colors: [kNew4]),
   ]),
   // BarChartGroupData(x: 6, barRods: [
   //   BarChartRodData(y: 9, width: 25, colors: [kNew2]),

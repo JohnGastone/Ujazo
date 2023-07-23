@@ -4,7 +4,7 @@ import 'package:dashboard/screens/components/chart_container.dart';
 import 'package:dashboard/widgets/grafu_mwezi.dart';
 import 'package:dashboard/widgets/grafu_wiki.dart';
 import 'package:dashboard/widgets/bar_chart_wiki.dart';
-import 'package:dashboard/widgets/courses_grid.dart';
+import 'package:dashboard/widgets/vinywaji_grid.dart';
 import 'package:dashboard/widgets/planing_grid.dart';
 import 'package:dashboard/widgets/statistics_grid.dart';
 import 'package:flutter/material.dart';
