@@ -3,8 +3,8 @@
 import 'package:dashboard/data/data.dart';
 import 'package:flutter/material.dart';
 
-class PlaningGrid extends StatelessWidget {
-  const PlaningGrid({Key? key}) : super(key: key);
+class KaziZaMwishoGrid extends StatelessWidget {
+  const KaziZaMwishoGrid({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {

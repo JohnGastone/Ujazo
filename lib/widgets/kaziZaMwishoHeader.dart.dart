@@ -2,8 +2,8 @@ import 'package:flutter/material.dart';
 
 import '../constant.dart';
 
-class PlaningHeader extends StatelessWidget {
-  const PlaningHeader({Key? key}) : super(key: key);
+class KaziZaMwishoHeader extends StatelessWidget {
+  const KaziZaMwishoHeader({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {

@@ -110,11 +110,11 @@ class MainScreen extends StatelessWidget {
               const SizedBox(
                 height: 20,
               ),
-              const PlaningHeader(),
+              const KaziZaMwishoHeader(),
               const SizedBox(
                 height: 15,
               ),
-              const PlaningGrid(),
+              const KaziZaMwishoGrid(),
               const SizedBox(
                 height: 15,
               ),

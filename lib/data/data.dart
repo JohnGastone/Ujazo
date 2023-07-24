@@ -35,8 +35,8 @@ final List<Kinywaji> kinywaji = [
       color: kYellow),
 ];
 
-final List<Planing> planing = [
-  Planing(
+final List<KaziZaMwisho> kaziZaMwisho = [
+  KaziZaMwisho(
     heading: "Soda 350 ml",
     subHeading: "8:00 AM - 10:00 AM",
     color: kLightBlue,
@@ -45,7 +45,7 @@ final List<Planing> planing = [
       color: kDarkBlue,
     ),
   ),
-  Planing(
+  KaziZaMwisho(
     heading: "Mvinyo 600 ml",
     subHeading: "03:00 PM - 04:00 PM",
     color: const Color(0xffE2EDD2),
@@ -54,8 +54,14 @@ final List<Planing> planing = [
       color: kGreen,
     ),
   ),
-  Planing(
+  KaziZaMwisho(
     heading: "Maji 500 ml",
+    subHeading: "8:00 AM - 12:00 PM",
+    color: const Color(0xffF9F0D3),
+    icon: const Icon(Icons.bookmark, color: kYellow),
+  ),
+   KaziZaMwisho(
+    heading: "Juice 500 ml",
     subHeading: "8:00 AM - 12:00 PM",
     color: const Color(0xffF9F0D3),
     icon: const Icon(Icons.bookmark, color: kYellow),
