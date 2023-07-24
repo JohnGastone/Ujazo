@@ -71,15 +71,15 @@ final List<KaziZaMwisho> kaziZaMwisho = [
 final List<Statistics> statistics = [
   Statistics(
     title: "Kazi\nzilizokamilika",
-    number: "02",
+    number: "42",
   ),
   Statistics(
     title: "Muda\nuliotumika.",
-    number: "Saa 6",
+    number: "Saa 36",
   ),
   Statistics(
     title: "Kazi\nzinazoendelea",
-    number: "03",
+    number: "103",
   ),
   Statistics(
     title: "Maoni ",
