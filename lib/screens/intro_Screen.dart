@@ -31,7 +31,7 @@ class TestScreen extends StatelessWidget {
     Introduction(
       title: 'Uendeshaji',
       subTitle: 'Fuatilia ujazo wa vinywaji mbalimbali',
-      imageUrl: 'images/pic/glass-bottle.png',
+      imageUrl: 'images/pic/bottle.png',
     ),
     Introduction(
       title: 'Taarifa',
@@ -44,7 +44,7 @@ class TestScreen extends StatelessWidget {
       imageUrl: 'images/pic/reward.png',
     ),
     Introduction(
-      title: 'Data datani',
+      title: 'Data',
       subTitle: 'Tuma data kwa urahisi',
       imageUrl: 'images/pic/data.png',
     ),
