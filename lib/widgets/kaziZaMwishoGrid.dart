@@ -10,7 +10,7 @@ class KaziZaMwishoGrid extends StatelessWidget {
   Widget build(BuildContext context) {
     double width = MediaQuery.of(context).size.width;
     return GridView.builder(
-        itemCount: planing.length,
+        itemCount: kaziZaMwisho.length,
         physics: const NeverScrollableScrollPhysics(),
         shrinkWrap: true,
         gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
@@ -32,11 +32,11 @@ class KaziZaMwishoGrid extends StatelessWidget {
                       Container(
                         alignment: Alignment.center,
                         decoration: BoxDecoration(
-                            color: planing[index].color,
+                            color: kaziZaMwisho[index].color,
                             borderRadius: BorderRadius.circular(10)),
                         height: 55,
                         width: 55,
-                        child: planing[index].icon,
+                        child: kaziZaMwisho[index].icon,
                       )
                     ],
                   ),
@@ -46,7 +46,7 @@ class KaziZaMwishoGrid extends StatelessWidget {
                     mainAxisAlignment: MainAxisAlignment.center,
                     children: [
                       Text(
-                        planing[index].heading,
+                        kaziZaMwisho[index].heading,
                         maxLines: 1,
                         style: TextStyle(
                             fontSize: MediaQuery.of(context).size.width * 0.035,
@@ -54,7 +54,7 @@ class KaziZaMwishoGrid extends StatelessWidget {
                             overflow: TextOverflow.ellipsis),
                       ),
                       Text(
-                        planing[index].subHeading,
+                        kaziZaMwisho[index].subHeading,
                         style: TextStyle(
                           color: Colors.grey,
                           fontSize: MediaQuery.of(context).size.width * 0.03,

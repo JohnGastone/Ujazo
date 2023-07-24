@@ -4,6 +4,7 @@ const defaultPadding = 16.0;
 
 const kLightBlue = Color(0xffEBF6FF);
 const kDarkBlue = Color(0xff369FFF);
+const kDark = Color.fromARGB(255, 28, 28, 29);
 const kDarkBlue1 = Color.fromARGB(255, 148, 163, 177);
 const kGreen = Color(0xff8AC53E);
 const kGreen1 = Color.fromARGB(255, 181, 209, 144);

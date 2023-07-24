@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 
-class Planing {
+class KaziZaMwisho {
   final String heading;
   final String subHeading;
   final Icon icon;
   final Color color;
 
-  Planing({
+  KaziZaMwisho({
     required this.heading,
     required this.subHeading,
     required this.icon,

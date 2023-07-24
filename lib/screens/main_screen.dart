@@ -5,13 +5,13 @@ import 'package:dashboard/widgets/grafu_mwezi.dart';
 import 'package:dashboard/widgets/grafu_wiki.dart';
 import 'package:dashboard/widgets/bar_chart_wiki.dart';
 import 'package:dashboard/widgets/vinywaji_grid.dart';
-import 'package:dashboard/widgets/planing_grid.dart';
 import 'package:dashboard/widgets/statistics_grid.dart';
 import 'package:flutter/material.dart';
 
 import '../constant.dart';
 import '../widgets/bar_chart_mwezi.dart';
-import '../widgets/planing_header.dart';
+import '../widgets/kaziZaMwishoGrid.dart';
+import '../widgets/kaziZaMwishoHeader.dart.dart';
 import 'components/side_menu.dart';
 
 class MainScreen extends StatelessWidget {

@@ -60,11 +60,11 @@ final List<KaziZaMwisho> kaziZaMwisho = [
     color: const Color(0xffF9F0D3),
     icon: const Icon(Icons.bookmark, color: kYellow),
   ),
-   KaziZaMwisho(
+  KaziZaMwisho(
     heading: "Juice 500 ml",
     subHeading: "8:00 AM - 12:00 PM",
-    color: const Color(0xffF9F0D3),
-    icon: const Icon(Icons.bookmark, color: kYellow),
+    color: const Color.fromARGB(255, 150, 150, 140),
+    icon: const Icon(Icons.bookmark, color: kDark),
   ),
 ];
 
