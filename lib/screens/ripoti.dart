@@ -1,8 +1,10 @@
 // ignore_for_file: prefer_const_constructors, prefer_const_literals_to_create_immutables, sort_child_properties_last, unused_import
 
 import 'package:dashboard/screens/kazi_mpya.dart';
+import 'package:expandable_menu/expandable_menu.dart';
 import 'package:flutter/material.dart';
 
+import '../constant.dart';
 import 'components/side_menu.dart';
 
 class Ripoti extends StatelessWidget {
@@ -118,10 +120,180 @@ class Ripoti extends StatelessWidget {
           SizedBox(
             height: 20,
           ),
+          Center(
+              child: SizedBox(
+            height: 200.0,
+            width: 300.0,
+            child: Stack(
+              children: [
+                Positioned(
+                  top: 20.0,
+                  right: 20.0,
+                  left: 20.0,
+                  bottom: 0.0,
+                  child: Container(
+                    decoration: const BoxDecoration(
+                      color: kDarkBlue,
+                      borderRadius: BorderRadius.all(
+                        Radius.circular(16.0),
+                      ),
+                    ),
+                  ),
+                ),
+                const Positioned(
+                    top: 0.0,
+                    left: 0.0,
+                    right: 0.0,
+                    child: ExpandableMenu(
+                      width: 40.0,
+                      height: 40.0,
+                      items: [
+                        Icon(
+                          Icons.picture_as_pdf,
+                          color: Color.fromARGB(255, 77, 72, 72),
+                        ),
+                        Icon(
+                          Icons.image_outlined,
+                          color: Color.fromARGB(255, 77, 72, 72),
+                        ),
+                      ],
+                    )),
+              ],
+            ),
+          )),
+          SizedBox(
+            height: 40,
+          ),
+          Center(
+              child: SizedBox(
+            height: 200.0,
+            width: 300.0,
+            child: Stack(
+              children: [
+                Positioned(
+                  top: 20.0,
+                  right: 20.0,
+                  left: 20.0,
+                  bottom: 0.0,
+                  child: Container(
+                    decoration: const BoxDecoration(
+                      color: kOrange,
+                      borderRadius: BorderRadius.all(
+                        Radius.circular(16.0),
+                      ),
+                    ),
+                  ),
+                ),
+                const Positioned(
+                    top: 0.0,
+                    left: 0.0,
+                    right: 0.0,
+                    child: ExpandableMenu(
+                      width: 40.0,
+                      height: 40.0,
+                      items: [
+                        Icon(
+                          Icons.picture_as_pdf,
+                          color: Color.fromARGB(255, 77, 72, 72),
+                        ),
+                        Icon(
+                          Icons.image_outlined,
+                          color: Color.fromARGB(255, 77, 72, 72),
+                        ),
+                      ],
+                    )),
+              ],
+            ),
+          )),
+          SizedBox(
+            height: 40,
+          ),
+          Center(
+              child: SizedBox(
+            height: 200.0,
+            width: 300.0,
+            child: Stack(
+              children: [
+                Positioned(
+                  top: 20.0,
+                  right: 20.0,
+                  left: 20.0,
+                  bottom: 0.0,
+                  child: Container(
+                    decoration: const BoxDecoration(
+                      color: kGreen,
+                      borderRadius: BorderRadius.all(
+                        Radius.circular(16.0),
+                      ),
+                    ),
+                  ),
+                ),
+                const Positioned(
+                    top: 0.0,
+                    left: 0.0,
+                    right: 0.0,
+                    child: ExpandableMenu(
+                      width: 40.0,
+                      height: 40.0,
+                      items: [
+                        Icon(
+                          Icons.picture_as_pdf,
+                          color: Color.fromARGB(255, 77, 72, 72),
+                        ),
+                        Icon(
+                          Icons.image_outlined,
+                          color: Color.fromARGB(255, 77, 72, 72),
+                        ),
+                      ],
+                    )),
+              ],
+            ),
+          )),
           // buildRoundeCard(),
           SizedBox(
-            height: 20,
+            height: 40,
           ),
+          Center(
+              child: SizedBox(
+            height: 200.0,
+            width: 300.0,
+            child: Stack(
+              children: [
+                Positioned(
+                  top: 20.0,
+                  right: 20.0,
+                  left: 20.0,
+                  bottom: 0.0,
+                  child: Container(
+                    decoration: const BoxDecoration(
+                      color: kYellow,
+                      borderRadius: BorderRadius.all(
+                        Radius.circular(16.0),
+                      ),
+                    ),
+                  ),
+                ),
+                const Positioned(
+                    top: 0.0,
+                    left: 0.0,
+                    right: 0.0,
+                    child: ExpandableMenu(
+                      width: 40.0,
+                      height: 40.0,
+                      items: [
+                        Icon(
+                          Icons.picture_as_pdf,
+                          color: Color.fromARGB(255, 77, 72, 72),
+                        ),
+                        Icon(
+                          Icons.image_outlined,
+                          color: Color.fromARGB(255, 77, 72, 72),
+                        ),
+                      ],
+                    )),
+              ],
+            ),
+          )),
           // buildColorCard(context)
         ],
       ),
