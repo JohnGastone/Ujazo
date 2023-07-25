@@ -21,7 +21,7 @@ class Ripoti extends StatelessWidget {
             ),
             Text(
               '@Ujazo',
-              style: TextStyle(fontSize: 35, fontWeight: FontWeight.bold),
+              style: TextStyle(fontSize: 35, fontWeight: FontWeight.bold, fontfamily: "popins"),
             )
           ]),
         ),
