@@ -7,28 +7,28 @@ import '../model/statistics_model.dart';
 final List<Kinywaji> kinywaji = [
   Kinywaji(
       text: "Juice",
-      lessons: "Lita 380",
+      kinywaji: "Lita 380",
       imageUrl: "images/juice.png",
       percent: 75,
       backImage: "images/box/box1.png",
       color: kDarkBlue),
   Kinywaji(
       text: "Maji",
-      lessons: "Lita 730",
+      kinywaji: "Lita 730",
       imageUrl: "images/water.png",
       percent: 50,
       backImage: "images/box/box2.png",
       color: kOrange),
   Kinywaji(
       text: "Soda",
-      lessons: "Lita 350",
+      kinywaji: "Lita 350",
       imageUrl: "images/soda.png",
       percent: 59,
       backImage: "images/box/box3.png",
       color: kGreen),
   Kinywaji(
       text: "Mvinyo",
-      lessons: "Lita 75",
+      kinywaji: "Lita 75",
       imageUrl: "images/wine.png",
       percent: 75,
       backImage: "images/box/box4.png",

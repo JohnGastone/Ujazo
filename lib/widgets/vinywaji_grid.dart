@@ -34,7 +34,7 @@ class KinywajiGrid extends StatelessWidget {
                         style: const TextStyle(color: Colors.white),
                       ),
                       Text(
-                        kinywaji[index].lessons,
+                        kinywaji[index].kinywaji,
                         style: const TextStyle(color: Colors.white),
                       ),
                       CircularPercentIndicator(
