@@ -2,13 +2,13 @@ import 'package:dashboard/constant.dart';
 import 'package:dashboard/data/data.dart';
 import 'package:flutter/material.dart';
 
-class StatisticsGrid extends StatelessWidget {
-  const StatisticsGrid({Key? key}) : super(key: key);
+class TakwimuGrid extends StatelessWidget {
+  const TakwimuGrid({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
     return GridView.builder(
-      itemCount: statistics.length,
+      itemCount: takwimu.length,
       physics: const NeverScrollableScrollPhysics(),
       shrinkWrap: true,
       gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
@@ -29,7 +29,7 @@ class StatisticsGrid extends StatelessWidget {
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: [
                 Text(
-                  statistics[index].title,
+                  takwimu[index].title,
                   maxLines: 2,
                   softWrap: true,
                   style: const TextStyle(
@@ -48,7 +48,7 @@ class StatisticsGrid extends StatelessWidget {
                           borderRadius: BorderRadius.circular(15)),
                     ),
                     Text(
-                      statistics[index].number,
+                      takwimu[index].number,
                       style: const TextStyle(
                         fontSize: 30,
                         fontWeight: FontWeight.bold,

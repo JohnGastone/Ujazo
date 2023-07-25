@@ -1,8 +1,8 @@
-class Statistics {
+class Takwimu {
   final String title;
   final String number;
 
-  Statistics({
+  Takwimu({
     required this.title,
     required this.number,
   });

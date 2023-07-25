@@ -1,4 +1,4 @@
-// ignore_for_file: unused_local_variable
+// ignore_for_file: unused_local_variable, file_names
 
 import 'package:dashboard/data/data.dart';
 import 'package:flutter/material.dart';

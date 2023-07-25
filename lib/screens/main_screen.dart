@@ -131,7 +131,7 @@ class MainScreen extends StatelessWidget {
               const SizedBox(
                 height: 15,
               ),
-              const StatisticsGrid(),
+              const TakwimuGrid(),
               const SizedBox(
                 height: 15,
               ),

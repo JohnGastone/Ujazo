@@ -68,20 +68,20 @@ final List<KaziZaMwisho> kaziZaMwisho = [
   ),
 ];
 
-final List<Statistics> statistics = [
-  Statistics(
+final List<Takwimu> takwimu = [
+  Takwimu(
     title: "Kazi\nzilizokamilika",
     number: "42",
   ),
-  Statistics(
+  Takwimu(
     title: "Muda\nuliotumika.",
     number: "Saa 36",
   ),
-  Statistics(
+  Takwimu(
     title: "Kazi\nzinazoendelea",
     number: "103",
   ),
-  Statistics(
+  Takwimu(
     title: "Maoni ",
     number: "Nzuri",
   )
