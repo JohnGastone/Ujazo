@@ -131,7 +131,7 @@ class Ripoti extends StatelessWidget {
           Center(
               child: SizedBox(
             height: 200.0,
-            width: 300.0,
+            width: 350.0,
             child: Stack(
               children: [
                 Positioned(
@@ -184,7 +184,7 @@ class Ripoti extends StatelessWidget {
           Center(
               child: SizedBox(
             height: 200.0,
-            width: 300.0,
+            width: 350.0,
             child: Stack(
               children: [
                 Positioned(
@@ -228,7 +228,7 @@ class Ripoti extends StatelessWidget {
 
           Center(
             child: Text(
-              "Soda | Sharubati",
+              "Alcohol | Pombe",
               textAlign: TextAlign.center,
               style:
                   GoogleFonts.lato(fontWeight: FontWeight.bold, fontSize: 20),
@@ -237,7 +237,7 @@ class Ripoti extends StatelessWidget {
           Center(
               child: SizedBox(
             height: 200.0,
-            width: 300.0,
+            width: 350.0,
             child: Stack(
               children: [
                 Positioned(
@@ -290,7 +290,7 @@ class Ripoti extends StatelessWidget {
           Center(
               child: SizedBox(
             height: 200.0,
-            width: 300.0,
+            width: 350.0,
             child: Stack(
               children: [
                 Positioned(
