@@ -3,7 +3,7 @@
 import 'package:dashboard/screens/kazi_mpya.dart';
 import 'package:expandable_menu/expandable_menu.dart';
 import 'package:flutter/material.dart';
-
+import 'package:google_fonts/google_fonts.dart';
 import '../constant.dart';
 import 'components/side_menu.dart';
 
@@ -15,18 +15,18 @@ class Ripoti extends StatelessWidget {
           padding: const EdgeInsets.all(12.0),
           child: Column(children: [
             Text(
-              'Karibu katika ukurasa wa kuangalia na kutengeneza ripoti ya kazi zilizofanyika.',
-              style: TextStyle(fontSize: 20),
+              'Karibu katika ukurasa wa kuangalia na kutengeneza ripoti za kazi zilizofanyika.',
+              style: GoogleFonts.lato(fontSize: 30),
             ),
             SizedBox(
               height: 12,
             ),
             Text(
               '@Ujazo',
-              style: TextStyle(
-                  fontSize: 35,
-                  fontWeight: FontWeight.bold,
-                  fontFamily: "popins"),
+              style: GoogleFonts.lato(
+                fontSize: 15,
+                fontWeight: FontWeight.bold,
+              ),
             )
           ]),
         ),
@@ -121,6 +121,14 @@ class Ripoti extends StatelessWidget {
             height: 20,
           ),
           Center(
+            child: Text(
+              "Juice | Sharubati",
+              textAlign: TextAlign.center,
+              style:
+                  GoogleFonts.lato(fontWeight: FontWeight.bold, fontSize: 20),
+            ),
+          ),
+          Center(
               child: SizedBox(
             height: 200.0,
             width: 300.0,
@@ -163,6 +171,15 @@ class Ripoti extends StatelessWidget {
           )),
           SizedBox(
             height: 40,
+          ),
+
+          Center(
+            child: Text(
+              "Water | Maji",
+              textAlign: TextAlign.center,
+              style:
+                  GoogleFonts.lato(fontWeight: FontWeight.bold, fontSize: 20),
+            ),
           ),
           Center(
               child: SizedBox(
@@ -207,6 +224,15 @@ class Ripoti extends StatelessWidget {
           )),
           SizedBox(
             height: 40,
+          ),
+
+          Center(
+            child: Text(
+              "Soda | Sharubati",
+              textAlign: TextAlign.center,
+              style:
+                  GoogleFonts.lato(fontWeight: FontWeight.bold, fontSize: 20),
+            ),
           ),
           Center(
               child: SizedBox(
@@ -254,6 +280,14 @@ class Ripoti extends StatelessWidget {
             height: 40,
           ),
           Center(
+            child: Text(
+              "Wine | Mvinyo",
+              textAlign: TextAlign.center,
+              style:
+                  GoogleFonts.lato(fontWeight: FontWeight.bold, fontSize: 20),
+            ),
+          ),
+          Center(
               child: SizedBox(
             height: 200.0,
             width: 300.0,
@@ -294,6 +328,10 @@ class Ripoti extends StatelessWidget {
               ],
             ),
           )),
+
+          SizedBox(
+            height: 50,
+          )
           // buildColorCard(context)
         ],
       ),

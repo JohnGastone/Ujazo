@@ -17,8 +17,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Introduction Screen',
       theme: ThemeData(
-        // primarySwatch: Color.fromARGB(23, 23, 32, 43),
-        backgroundColor: const Color.fromARGB(255, 175, 147, 147),
+        primarySwatch: Colors.lightGreen,
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
       home: TestScreen(),
