@@ -1,6 +1,7 @@
 // ignore_for_file: prefer_const_constructors, prefer_const_literals_to_create_immutables, sort_child_properties_last, unused_import
 
 import 'package:dashboard/screens/kazi_mpya.dart';
+import 'package:dashboard/screens/main_screen.dart';
 import 'package:expandable_menu/expandable_menu.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
@@ -16,7 +17,7 @@ class Ripoti extends StatelessWidget {
           child: Column(children: [
             Text(
               'Karibu katika ukurasa wa kuangalia na kutengeneza ripoti za kazi zilizofanyika.',
-              style: GoogleFonts.lato(fontSize: 30),
+              style: GoogleFonts.lato(fontSize: 21),
             ),
             SizedBox(
               height: 12,
@@ -128,47 +129,106 @@ class Ripoti extends StatelessWidget {
                   GoogleFonts.lato(fontWeight: FontWeight.bold, fontSize: 20),
             ),
           ),
-          Center(
-              child: SizedBox(
-            height: 200.0,
-            width: 350.0,
-            child: Stack(
+          Padding(
+            padding: const EdgeInsets.symmetric(vertical: 8),
+            child: ListView(
+              padding: const EdgeInsets.all(8),
               children: [
-                Positioned(
-                  top: 20.0,
-                  right: 20.0,
-                  left: 20.0,
-                  bottom: 0.0,
+                InkWell(
+                  onTap: () {
+                    Navigator.of(context)
+                      ..pop()
+                      ..push(
+                        MaterialPageRoute<MainScreen>(
+                          builder: (context) => const MainScreen(),
+                        ),
+                      );
+                  },
                   child: Container(
-                    decoration: const BoxDecoration(
-                      color: kDarkBlue,
-                      borderRadius: BorderRadius.all(
-                        Radius.circular(16.0),
-                      ),
-                    ),
+                    height: 50,
+                    color: Colors.amber[100],
+                    child: const Center(child: Text('Entry A')),
                   ),
                 ),
-                const Positioned(
-                    top: 0.0,
-                    left: 0.0,
-                    right: 0.0,
-                    child: ExpandableMenu(
-                      width: 40.0,
-                      height: 40.0,
-                      items: [
-                        Icon(
-                          Icons.picture_as_pdf,
-                          color: Color.fromARGB(255, 77, 72, 72),
-                        ),
-                        Icon(
-                          Icons.image_outlined,
-                          color: Color.fromARGB(255, 77, 72, 72),
-                        ),
-                      ],
-                    )),
+                const Divider(),
+                Container(
+                  height: 50,
+                  color: Colors.amber[200],
+                  child: const Center(child: Text('Entry B')),
+                ),
+                const Divider(),
+                Container(
+                  height: 50,
+                  color: Colors.amber[300],
+                  child: const Center(child: Text('Entry C')),
+                ),
+                const Divider(),
+                Container(
+                  height: 50,
+                  color: Colors.amber[400],
+                  child: const Center(child: Text('Entry D')),
+                ),
+                const Divider(),
+                Container(
+                  height: 50,
+                  color: Colors.amber[500],
+                  child: const Center(child: Text('Entry E')),
+                ),
+                const Divider(),
+                Container(
+                  height: 50,
+                  color: Colors.amber[600],
+                  child: const Center(child: Text('Entry F')),
+                ),
               ],
             ),
-          )),
+          ),
+
+          // Center(
+          //     child: SizedBox(
+          //   height: 200.0,
+          //   width: 350.0,
+          //   child: Stack(
+          //     children: [
+          //       Positioned(
+          //         top: 20.0,
+          //         right: 20.0,
+          //         left: 20.0,
+          //         bottom: 0.0,
+          //         child: Container(
+          //           decoration: const BoxDecoration(
+          //             color: kDarkBlue,
+          //             borderRadius: BorderRadius.all(
+          //               Radius.circular(16.0),
+          //             ),
+          //           ),
+          //         ),
+          //       ),
+          //       Positioned(
+          //           top: 0.0,
+          //           left: 0.0,
+          //           right: 0.0,
+          //           child: ExpandableMenu(
+          //             width: 40.0,
+          //             height: 40.0,
+          //             items: [
+          //               Icon(
+          //                 Icons.picture_as_pdf,
+          //                 color: Color.fromARGB(255, 77, 72, 72),
+          //               ),
+          //               Icon(
+          //                 Icons.image_outlined,
+          //                 color: Color.fromARGB(255, 77, 72, 72),
+          //               ),
+          //               Text(
+          //                 'data',
+          //                 style: GoogleFonts.lato(fontSize: 5),
+          //               )
+          //             ],
+          //           )),
+          //     ],
+          //   ),
+          // )),
           SizedBox(
             height: 40,
           ),
