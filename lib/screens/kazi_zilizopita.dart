@@ -31,14 +31,18 @@ class KaziZilizopita extends StatelessWidget {
               shadowColor: Color.fromARGB(255, 120, 109, 300),
               shape: RoundedRectangleBorder(
                   borderRadius: BorderRadius.circular(10)),
-              child: Padding(
-                  padding: const EdgeInsets.all(16.0),
-                  child: Image(
-                    image: AssetImage(
-                      './images/juice.png',
-                    ),
-                    alignment: Alignment.centerRight,
-                  )),
+              child: Column(
+                children: const [
+                  Padding(
+                      padding: EdgeInsets.all(16.0),
+                      child: Image(
+                        image: AssetImage(
+                          './images/juice.png',
+                        ),
+                        alignment: Alignment.centerRight,
+                      )),
+                ],
+              ),
             ),
           ),
           Container(

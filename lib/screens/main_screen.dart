@@ -152,7 +152,9 @@ class CustomSearchDelegate extends SearchDelegate {
     'Kazi zilizopita',
     'Kazi ya Mwisho',
     'Takwimu',
-    'Grafu'
+    'Grafu',
+    'Grafu ya Wiki',
+    'Grafu ya Mwezi'
   ];
 
   var item;
