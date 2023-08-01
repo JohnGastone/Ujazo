@@ -147,30 +147,47 @@ class Ripoti extends StatelessWidget {
                         Radius.circular(16.0),
                       ),
                     ),
+                    child: Row(
+                      mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                      children: [
+                        Image.asset(
+                          './images/juice.png',
+                          height: 140,
+                        ),
+                        Column(
+                          children: [
+                            SizedBox(
+                              height: 30,
+                            ),
+                            Text('First Column'),
+                          ],
+                        ),
+                      ],
+                    ),
                   ),
                 ),
-                Positioned(
-                    top: 0.0,
-                    left: 0.0,
-                    right: 0.0,
-                    child: ExpandableMenu(
-                      width: 40.0,
-                      height: 40.0,
-                      items: [
-                        Icon(
-                          Icons.picture_as_pdf,
-                          color: Color.fromARGB(255, 77, 72, 72),
-                        ),
-                        Icon(
-                          Icons.image_outlined,
-                          color: Color.fromARGB(255, 77, 72, 72),
-                        ),
-                        Text(
-                          'data',
-                          style: GoogleFonts.lato(fontSize: 5),
-                        )
-                      ],
-                    )),
+                // Positioned(
+                //     top: 0.0,
+                //     left: 0.0,
+                //     right: 0.0,
+                //     child: ExpandableMenu(
+                //       width: 40.0,
+                //       height: 40.0,
+                //       items: [
+                //         Icon(
+                //           Icons.picture_as_pdf,
+                //           color: Color.fromARGB(255, 77, 72, 72),
+                //         ),
+                //         Icon(
+                //           Icons.image_outlined,
+                //           color: Color.fromARGB(255, 77, 72, 72),
+                //         ),
+                //         Text(
+                //           'data',
+                //           style: GoogleFonts.lato(fontSize: 45),
+                //         )
+                //       ],
+                //     )),
               ],
             ),
           )),
@@ -204,26 +221,36 @@ class Ripoti extends StatelessWidget {
                         Radius.circular(16.0),
                       ),
                     ),
+                    child: Row(
+                      mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                      children: [
+                        Image.asset(
+                          './images/water.png',
+                          height: 140,
+                        ),
+                        Text('First Column'),
+                      ],
+                    ),
                   ),
                 ),
-                const Positioned(
-                    top: 0.0,
-                    left: 0.0,
-                    right: 0.0,
-                    child: ExpandableMenu(
-                      width: 40.0,
-                      height: 40.0,
-                      items: [
-                        Icon(
-                          Icons.picture_as_pdf,
-                          color: Color.fromARGB(255, 77, 72, 72),
-                        ),
-                        Icon(
-                          Icons.image_outlined,
-                          color: Color.fromARGB(255, 77, 72, 72),
-                        ),
-                      ],
-                    )),
+                // const Positioned(
+                //     top: 0.0,
+                //     left: 0.0,
+                //     right: 0.0,
+                //     child: ExpandableMenu(
+                //       width: 40.0,
+                //       height: 40.0,
+                //       items: [
+                //         Icon(
+                //           Icons.picture_as_pdf,
+                //           color: Color.fromARGB(255, 77, 72, 72),
+                //         ),
+                //         Icon(
+                //           Icons.image_outlined,
+                //           color: Color.fromARGB(255, 77, 72, 72),
+                //         ),
+                //       ],
+                //     )),
               ],
             ),
           )),
@@ -257,26 +284,36 @@ class Ripoti extends StatelessWidget {
                         Radius.circular(16.0),
                       ),
                     ),
+                    child: Row(
+                      mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                      children: [
+                        Image.asset(
+                          './images/juice.png',
+                          height: 140,
+                        ),
+                        Text('First Column'),
+                      ],
+                    ),
                   ),
                 ),
-                const Positioned(
-                    top: 0.0,
-                    left: 0.0,
-                    right: 0.0,
-                    child: ExpandableMenu(
-                      width: 40.0,
-                      height: 40.0,
-                      items: [
-                        Icon(
-                          Icons.picture_as_pdf,
-                          color: Color.fromARGB(255, 77, 72, 72),
-                        ),
-                        Icon(
-                          Icons.image_outlined,
-                          color: Color.fromARGB(255, 77, 72, 72),
-                        ),
-                      ],
-                    )),
+                // const Positioned(
+                //     top: 0.0,
+                //     left: 0.0,
+                //     right: 0.0,
+                //     child: ExpandableMenu(
+                //       width: 40.0,
+                //       height: 40.0,
+                //       items: [
+                //         Icon(
+                //           Icons.picture_as_pdf,
+                //           color: Color.fromARGB(255, 77, 72, 72),
+                //         ),
+                //         Icon(
+                //           Icons.image_outlined,
+                //           color: Color.fromARGB(255, 77, 72, 72),
+                //         ),
+                //       ],
+                //     )),
               ],
             ),
           )),
@@ -310,26 +347,36 @@ class Ripoti extends StatelessWidget {
                         Radius.circular(16.0),
                       ),
                     ),
+                    child: Row(
+                      mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                      children: [
+                        Image.asset(
+                          './images/wine.png',
+                          height: 140,
+                        ),
+                        Text('First Column'),
+                      ],
+                    ),
                   ),
                 ),
-                const Positioned(
-                    top: 0.0,
-                    left: 0.0,
-                    right: 0.0,
-                    child: ExpandableMenu(
-                      width: 40.0,
-                      height: 40.0,
-                      items: [
-                        Icon(
-                          Icons.picture_as_pdf,
-                          color: Color.fromARGB(255, 77, 72, 72),
-                        ),
-                        Icon(
-                          Icons.image_outlined,
-                          color: Color.fromARGB(255, 77, 72, 72),
-                        ),
-                      ],
-                    )),
+                // const Positioned(
+                //     top: 0.0,
+                //     left: 0.0,
+                //     right: 0.0,
+                //     child: ExpandableMenu(
+                //       width: 40.0,
+                //       height: 40.0,
+                //       items: [
+                //         Icon(
+                //           Icons.picture_as_pdf,
+                //           color: Color.fromARGB(255, 77, 72, 72),
+                //         ),
+                //         Icon(
+                //           Icons.image_outlined,
+                //           color: Color.fromARGB(255, 77, 72, 72),
+                //         ),
+                //       ],
+                //     )),
               ],
             ),
           )),
