@@ -31,7 +31,7 @@ class TestScreen extends StatelessWidget {
     Introduction(
       title: 'Uendeshaji',
       subTitle: 'Fuatilia ujazaji wa vinywaji mbalimbali',
-      imageUrl: 'images/pic/bottle.png',
+      imageUrl: 'images/pic/takwimu.png',
       titleTextStyle: GoogleFonts.lato(fontSize: 35),
       subTitleTextStyle: GoogleFonts.lato(fontSize: 20),
     ),
