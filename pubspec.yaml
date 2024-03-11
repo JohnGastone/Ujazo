@@ -42,7 +42,7 @@ dependencies:
   adaptive_theme: ^3.2.1
   expandable_menu: ^0.0.5
   popover: ^0.2.8+2
-  syncfusion_flutter_datepicker: ^22.2.7
+  # syncfusion_flutter_datepicker: ^22.2.7
 
 dev_dependencies:
   flutter_test:
