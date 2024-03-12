@@ -17,8 +17,8 @@ class KaziZilizopita extends StatelessWidget {
             ),
             Image.asset(
               'images/ujazo.png',
-              height: 100,
-              width: 100,
+              height: 70,
+              width: 70,
             ),
           ]),
         ),
