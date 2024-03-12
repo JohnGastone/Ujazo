@@ -8,6 +8,7 @@ import 'package:dashboard/screens/kuhusu_opareta.dart';
 import 'package:dashboard/screens/main_screen.dart';
 import 'package:dashboard/screens/ripoti.dart';
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 import 'package:ternav_icons/ternav_icons.dart';
 import '../../constant.dart';
 
@@ -111,8 +112,8 @@ class SideMenu extends StatelessWidget {
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   mainAxisSize: MainAxisSize.min,
                   children: [
-                    const Text("Rudi Nyuma",
-                        style: TextStyle(
+                    Text("Rudi Nyuma",
+                        style: GoogleFonts.spaceMono(
                           color: kDarkBlue,
                         )),
                     InkWell(
@@ -164,11 +165,11 @@ class DrawerListTile extends StatelessWidget {
       leading: Icon(
         icon,
         color: Colors.grey,
-        size: 18,
+        size: 30,
       ),
       title: Text(
         title,
-        style: const TextStyle(color: Colors.grey),
+        style: GoogleFonts.spaceMono(color: Colors.grey, fontSize: 20),
       ),
     );
   }
