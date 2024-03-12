@@ -32,73 +32,6 @@ class Ripoti extends StatelessWidget {
         ),
       );
 
-  // Widget buildRoundeCard() => Card(
-  //       color: Colors.white38,
-  //       shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(25)),
-  //       shadowColor: Colors.black87,
-  //       elevation: 10,
-  //       child: Padding(
-  //         padding: const EdgeInsets.all(12.0),
-  //         child: Column(children: [
-  //           Text(
-  //             'Ripoti Ya Wiki.',
-  //             style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
-  //           ),
-  //           SizedBox(
-  //             height: 12,
-  //           ),
-  //           Text(
-  //             'Vinywaji Vilivyojazwa.',
-  //             style: TextStyle(fontSize: 35, fontWeight: FontWeight.normal),
-  //           )
-  //         ]),
-  //       ),
-  //     );
-
-  // Widget buildColorCard(context) => Card(
-  //       color: Colors.white38,
-  //       clipBehavior: Clip.antiAlias,
-  //       shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(25)),
-  //       shadowColor: Color.fromARGB(221, 139, 124, 124),
-  //       elevation: 15,
-  //       child: Container(
-  //         decoration: BoxDecoration(
-  //             gradient: LinearGradient(
-  //           colors: [
-  //             Color.fromARGB(255, 238, 227, 237),
-  //             Color.fromARGB(255, 173, 118, 114)
-  //           ],
-  //           begin: Alignment.topCenter,
-  //           end: Alignment.bottomCenter,
-  //         )),
-  //         padding: const EdgeInsets.all(12.0),
-  //         child: Column(children: [
-  //           Text(
-  //             'Ripoti ya siku.',
-  //             style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
-  //           ),
-  //           SizedBox(
-  //             height: 12,
-  //           ),
-  //           Text(
-  //             'Vinywaji Vilivyojazwa.',
-  //             style: TextStyle(fontSize: 35, fontWeight: FontWeight.normal),
-  //           ),
-  //           Ink.image(
-  //             image: AssetImage('./images/waterdrop.png'),
-  //             child: InkWell(
-  //               onTap: () {
-  //                 Navigator.pop(context);
-  //                 Navigator.of(context).push(MaterialPageRoute(
-  //                     builder: (context) => const KaziMpya()));
-  //               },
-  //             ),
-  //             height: 50,
-  //             fit: BoxFit.cover,
-  //           ),
-  //         ]),
-  //       ),
-  //     );
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -108,9 +41,9 @@ class Ripoti extends StatelessWidget {
             borderRadius: BorderRadius.only(
                 bottomLeft: Radius.circular(15),
                 bottomRight: Radius.circular(15))),
-        title: const Text(
+        title: Text(
           'Ripoti',
-          style: TextStyle(color: Colors.black38),
+          style: GoogleFonts.spaceMono(color: Colors.black38),
         ),
         backgroundColor: Color.fromARGB(255, 211, 201, 201),
       ),
@@ -124,8 +57,8 @@ class Ripoti extends StatelessWidget {
             child: Text(
               "Juice | Sharubati",
               textAlign: TextAlign.center,
-              style:
-                  GoogleFonts.lato(fontWeight: FontWeight.bold, fontSize: 20),
+              style: GoogleFonts.spaceMono(
+                  fontWeight: FontWeight.bold, fontSize: 20),
             ),
           ),
 
@@ -159,35 +92,34 @@ class Ripoti extends StatelessWidget {
                             SizedBox(
                               height: 30,
                             ),
-                            Text('First Column'),
                           ],
                         ),
                       ],
                     ),
                   ),
                 ),
-                // Positioned(
-                //     top: 0.0,
-                //     left: 0.0,
-                //     right: 0.0,
-                //     child: ExpandableMenu(
-                //       width: 40.0,
-                //       height: 40.0,
-                //       items: [
-                //         Icon(
-                //           Icons.picture_as_pdf,
-                //           color: Color.fromARGB(255, 77, 72, 72),
-                //         ),
-                //         Icon(
-                //           Icons.image_outlined,
-                //           color: Color.fromARGB(255, 77, 72, 72),
-                //         ),
-                //         Text(
-                //           'data',
-                //           style: GoogleFonts.lato(fontSize: 45),
-                //         )
-                //       ],
-                //     )),
+                Positioned(
+                    top: 0.0,
+                    left: 0.0,
+                    right: 0.0,
+                    child: ExpandableMenu(
+                      width: 40.0,
+                      height: 40.0,
+                      items: [
+                        Icon(
+                          Icons.picture_as_pdf,
+                          color: Color.fromARGB(255, 77, 72, 72),
+                        ),
+                        Icon(
+                          Icons.image_outlined,
+                          color: Color.fromARGB(255, 77, 72, 72),
+                        ),
+                        Text(
+                          'data',
+                          style: GoogleFonts.lato(fontSize: 45),
+                        )
+                      ],
+                    )),
               ],
             ),
           )),
@@ -199,8 +131,8 @@ class Ripoti extends StatelessWidget {
             child: Text(
               "Water | Maji",
               textAlign: TextAlign.center,
-              style:
-                  GoogleFonts.lato(fontWeight: FontWeight.bold, fontSize: 20),
+              style: GoogleFonts.spaceMono(
+                  fontWeight: FontWeight.bold, fontSize: 20),
             ),
           ),
           Center(
@@ -228,29 +160,28 @@ class Ripoti extends StatelessWidget {
                           './images/water.png',
                           height: 140,
                         ),
-                        Text('First Column'),
                       ],
                     ),
                   ),
                 ),
-                // const Positioned(
-                //     top: 0.0,
-                //     left: 0.0,
-                //     right: 0.0,
-                //     child: ExpandableMenu(
-                //       width: 40.0,
-                //       height: 40.0,
-                //       items: [
-                //         Icon(
-                //           Icons.picture_as_pdf,
-                //           color: Color.fromARGB(255, 77, 72, 72),
-                //         ),
-                //         Icon(
-                //           Icons.image_outlined,
-                //           color: Color.fromARGB(255, 77, 72, 72),
-                //         ),
-                //       ],
-                //     )),
+                const Positioned(
+                    top: 0.0,
+                    left: 0.0,
+                    right: 0.0,
+                    child: ExpandableMenu(
+                      width: 40.0,
+                      height: 40.0,
+                      items: [
+                        Icon(
+                          Icons.picture_as_pdf,
+                          color: Color.fromARGB(255, 77, 72, 72),
+                        ),
+                        Icon(
+                          Icons.image_outlined,
+                          color: Color.fromARGB(255, 77, 72, 72),
+                        ),
+                      ],
+                    )),
               ],
             ),
           )),
@@ -262,8 +193,8 @@ class Ripoti extends StatelessWidget {
             child: Text(
               "Alcohol | Pombe",
               textAlign: TextAlign.center,
-              style:
-                  GoogleFonts.lato(fontWeight: FontWeight.bold, fontSize: 20),
+              style: GoogleFonts.spaceMono(
+                  fontWeight: FontWeight.bold, fontSize: 20),
             ),
           ),
           Center(
@@ -291,29 +222,28 @@ class Ripoti extends StatelessWidget {
                           './images/juice.png',
                           height: 140,
                         ),
-                        Text('First Column'),
                       ],
                     ),
                   ),
                 ),
-                // const Positioned(
-                //     top: 0.0,
-                //     left: 0.0,
-                //     right: 0.0,
-                //     child: ExpandableMenu(
-                //       width: 40.0,
-                //       height: 40.0,
-                //       items: [
-                //         Icon(
-                //           Icons.picture_as_pdf,
-                //           color: Color.fromARGB(255, 77, 72, 72),
-                //         ),
-                //         Icon(
-                //           Icons.image_outlined,
-                //           color: Color.fromARGB(255, 77, 72, 72),
-                //         ),
-                //       ],
-                //     )),
+                const Positioned(
+                    top: 0.0,
+                    left: 0.0,
+                    right: 0.0,
+                    child: ExpandableMenu(
+                      width: 40.0,
+                      height: 40.0,
+                      items: [
+                        Icon(
+                          Icons.picture_as_pdf,
+                          color: Color.fromARGB(255, 77, 72, 72),
+                        ),
+                        Icon(
+                          Icons.image_outlined,
+                          color: Color.fromARGB(255, 77, 72, 72),
+                        ),
+                      ],
+                    )),
               ],
             ),
           )),
@@ -325,8 +255,8 @@ class Ripoti extends StatelessWidget {
             child: Text(
               "Wine | Mvinyo",
               textAlign: TextAlign.center,
-              style:
-                  GoogleFonts.lato(fontWeight: FontWeight.bold, fontSize: 20),
+              style: GoogleFonts.spaceMono(
+                  fontWeight: FontWeight.bold, fontSize: 20),
             ),
           ),
           Center(
@@ -354,29 +284,28 @@ class Ripoti extends StatelessWidget {
                           './images/wine.png',
                           height: 140,
                         ),
-                        Text('First Column'),
                       ],
                     ),
                   ),
                 ),
-                // const Positioned(
-                //     top: 0.0,
-                //     left: 0.0,
-                //     right: 0.0,
-                //     child: ExpandableMenu(
-                //       width: 40.0,
-                //       height: 40.0,
-                //       items: [
-                //         Icon(
-                //           Icons.picture_as_pdf,
-                //           color: Color.fromARGB(255, 77, 72, 72),
-                //         ),
-                //         Icon(
-                //           Icons.image_outlined,
-                //           color: Color.fromARGB(255, 77, 72, 72),
-                //         ),
-                //       ],
-                //     )),
+                const Positioned(
+                    top: 0.0,
+                    left: 0.0,
+                    right: 0.0,
+                    child: ExpandableMenu(
+                      width: 40.0,
+                      height: 40.0,
+                      items: [
+                        Icon(
+                          Icons.picture_as_pdf,
+                          color: Color.fromARGB(255, 77, 72, 72),
+                        ),
+                        Icon(
+                          Icons.image_outlined,
+                          color: Color.fromARGB(255, 77, 72, 72),
+                        ),
+                      ],
+                    )),
               ],
             ),
           )),
