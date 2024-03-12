@@ -1,6 +1,7 @@
 import 'package:dashboard/constant.dart';
 import 'package:dashboard/data/data.dart';
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 
 class TakwimuGrid extends StatelessWidget {
   const TakwimuGrid({Key? key}) : super(key: key);
@@ -32,7 +33,7 @@ class TakwimuGrid extends StatelessWidget {
                   takwimu[index].title,
                   maxLines: 2,
                   softWrap: true,
-                  style: const TextStyle(
+                  style: GoogleFonts.spaceMono(
                     fontSize: 13,
                     color: Color(0xff8EA3B7),
                   ),
@@ -49,7 +50,7 @@ class TakwimuGrid extends StatelessWidget {
                     ),
                     Text(
                       takwimu[index].number,
-                      style: const TextStyle(
+                      style: GoogleFonts.spaceMono(
                         fontSize: 30,
                         fontWeight: FontWeight.bold,
                         color: Color.fromARGB(255, 80, 156, 226),
