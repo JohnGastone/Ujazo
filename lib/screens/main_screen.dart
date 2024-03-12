@@ -2,6 +2,7 @@
 
 import 'package:dashboard/screens/components/chart_container.dart';
 import 'package:dashboard/widgets/grafu_mwezi.dart';
+import 'package:dashboard/widgets/grafu_siku.dart';
 import 'package:dashboard/widgets/grafu_wiki.dart';
 import 'package:dashboard/widgets/bar_chart_wiki.dart';
 import 'package:dashboard/widgets/vinywaji_grid.dart';
@@ -129,6 +130,8 @@ class MainScreen extends StatelessWidget {
               const SizedBox(
                 height: 15,
               ),
+              const ActivityHeaderSiku(),
+              const ChartContainer(chart: BarChartContentWiki()),
               const ActivityHeaderWiki(),
               const ChartContainer(chart: BarChartContentWiki()),
               const ActivityHeaderMwezi(),

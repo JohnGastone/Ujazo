@@ -1,0 +1,46 @@
+// ignore_for_file: prefer_const_constructors
+
+import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
+
+import '../constant.dart';
+
+class ActivityHeaderSiku extends StatelessWidget {
+  const ActivityHeaderSiku({Key? key}) : super(key: key);
+
+  @override
+  Widget build(BuildContext context) {
+    return Row(
+      mainAxisAlignment: MainAxisAlignment.spaceBetween,
+      children: [
+        Text(
+          "Grafu ya Siku",
+          style:
+              GoogleFonts.spaceMono(fontSize: 24, fontWeight: FontWeight.bold),
+        ),
+        Row(
+          children: [
+            Text(
+              "Siku",
+              style: GoogleFonts.spaceMono(color: kDarkBlue, fontSize: 15),
+            ),
+            SizedBox(
+              width: 7,
+            ),
+            Text(
+              "Wiki",
+              style: GoogleFonts.spaceMono(color: Colors.grey, fontSize: 15),
+            ),
+            SizedBox(
+              width: 7,
+            ),
+            Text(
+              "Mwezi",
+              style: GoogleFonts.spaceMono(color: Colors.grey, fontSize: 15),
+            )
+          ],
+        )
+      ],
+    );
+  }
+}
