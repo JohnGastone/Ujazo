@@ -12,19 +12,14 @@ class KaziZilizopita extends StatelessWidget {
           padding: const EdgeInsets.all(12.0),
           child: Column(children: [
             Text(
-              'Karibu katika ukurasa wa kuangalia na kutengeneza ripoti za kazi zilizofanyika.',
+              'Karibu katika ukurasa wa kuangalia na kufuatilia kazi zilizofanyika.',
               style: GoogleFonts.spaceMono(fontSize: 18),
             ),
-            SizedBox(
-              height: 12,
+            Image.asset(
+              'images/ujazo.png',
+              height: 100,
+              width: 100,
             ),
-            Text(
-              '@Ujazo',
-              style: GoogleFonts.spaceMono(
-                fontSize: 15,
-                fontWeight: FontWeight.bold,
-              ),
-            )
           ]),
         ),
       );
