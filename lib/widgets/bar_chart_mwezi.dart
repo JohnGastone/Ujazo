@@ -3,6 +3,7 @@
 import 'package:fl_chart/fl_chart.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
+import 'package:google_fonts/google_fonts.dart';
 
 import '../data/chart_data_mwezi.dart';
 
@@ -17,7 +18,7 @@ class BarChartContentMwezi extends StatelessWidget {
           leftTitles: SideTitles(showTitles: false),
           bottomTitles: SideTitles(
             showTitles: true,
-            getTextStyles: (value, _) => const TextStyle(
+            getTextStyles: (value, _) => GoogleFonts.spaceMono(
               fontSize: 12,
             ),
             getTitles: (value) {
