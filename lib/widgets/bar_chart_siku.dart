@@ -5,7 +5,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 import 'package:google_fonts/google_fonts.dart';
 
-import '../data/chart_data_wiki.dart';
+import '../data/chart_data_siku.dart';
 
 class BarChartContentSiku extends StatelessWidget {
   const BarChartContentSiku({Key? key}) : super(key: key);
@@ -38,7 +38,7 @@ class BarChartContentSiku extends StatelessWidget {
                 case 7:
                   return 'Usik';
                 case 8:
-                  return 'Wastani';
+                  return 'Wast';
               }
               return '';
             },
