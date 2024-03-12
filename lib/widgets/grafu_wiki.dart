@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 
 import '../constant.dart';
 
@@ -10,29 +11,30 @@ class ActivityHeaderWiki extends StatelessWidget {
     return Row(
       mainAxisAlignment: MainAxisAlignment.spaceBetween,
       children: [
-        const Text(
+        Text(
           "Grafu ya Wiki",
-          style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold),
+          style:
+              GoogleFonts.spaceMono(fontSize: 24, fontWeight: FontWeight.bold),
         ),
         Row(
-          children: const [
+          children: [
             Text(
               "Siku",
-              style: TextStyle(color: Colors.grey),
+              style: GoogleFonts.spaceMono(color: Colors.grey),
             ),
             SizedBox(
               width: 7,
             ),
             Text(
               "Wiki",
-              style: TextStyle(color: kDarkBlue),
+              style: GoogleFonts.spaceMono(color: kDarkBlue),
             ),
             SizedBox(
               width: 7,
             ),
             Text(
               "Mwezi",
-              style: TextStyle(color: Colors.grey),
+              style: GoogleFonts.spaceMono(color: Colors.grey),
             )
           ],
         )
