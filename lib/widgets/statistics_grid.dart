@@ -34,7 +34,7 @@ class TakwimuGrid extends StatelessWidget {
                   maxLines: 2,
                   softWrap: true,
                   style: GoogleFonts.spaceMono(
-                    fontSize: 13,
+                    fontSize: 14,
                     color: Color(0xff8EA3B7),
                   ),
                 ),

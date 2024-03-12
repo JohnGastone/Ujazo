@@ -6,7 +6,7 @@ import '../model/statistics_model.dart';
 
 final List<Kinywaji> kinywaji = [
   Kinywaji(
-      name: "Juice",
+      name: "Sharubati",
       amount: "Lita 380",
       imageUrl: "images/juice.png",
       percent: 75,
@@ -61,7 +61,7 @@ final List<KaziZaMwisho> kaziZaMwisho = [
     icon: const Icon(Icons.bookmark, color: kYellow),
   ),
   KaziZaMwisho(
-    heading: "Juice 500 ml",
+    heading: "Sharubati 500 ml",
     subHeading: "8:00 AM - 12:00 PM",
     color: const Color.fromARGB(255, 150, 150, 140),
     icon: const Icon(Icons.bookmark, color: kDark),
