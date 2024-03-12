@@ -25,9 +25,9 @@ class SideMenu extends StatelessWidget {
         shrinkWrap: true,
         children: [
           Image.asset(
-            "images/Ujazo.png",
-            height: 160,
-            width: 160,
+            "images/ujazo.png",
+            height: 100,
+            width: 100,
           ),
           DrawerListTile(
             icon: TernavIcons.lightOutline.home_2,
