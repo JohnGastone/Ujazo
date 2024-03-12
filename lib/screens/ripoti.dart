@@ -16,14 +16,14 @@ class Ripoti extends StatelessWidget {
           child: Column(children: [
             Text(
               'Karibu katika ukurasa wa kuangalia na kutengeneza ripoti za kazi zilizofanyika.',
-              style: GoogleFonts.lato(fontSize: 21),
+              style: GoogleFonts.spaceMono(fontSize: 18),
             ),
             SizedBox(
               height: 12,
             ),
             Text(
               '@Ujazo',
-              style: GoogleFonts.lato(
+              style: GoogleFonts.spaceMono(
                 fontSize: 15,
                 fontWeight: FontWeight.bold,
               ),
