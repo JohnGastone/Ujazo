@@ -1,6 +1,7 @@
 // ignore_for_file: prefer_const_constructors
 
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 
 import 'components/side_menu.dart';
 
@@ -16,7 +17,10 @@ class KuhusuOpareta extends StatelessWidget {
             borderRadius: BorderRadius.only(
                 bottomLeft: Radius.circular(15),
                 bottomRight: Radius.circular(15))),
-        title: const Text('Kuhusu Opareta'),
+        title: Text(
+          'Kuhusu Opareta',
+          style: GoogleFonts.spaceMono(),
+        ),
         backgroundColor: Color.fromARGB(255, 211, 201, 201),
       ),
       body: Container(
