@@ -85,6 +85,66 @@ class KaziZilizopita extends StatelessWidget {
                   )),
             ),
           ),
+          Container(
+            height: 200,
+            width: double.infinity,
+            child: Card(
+              margin: EdgeInsets.all(32),
+              color: Color.fromARGB(255, 201, 231, 218),
+              elevation: 20,
+              shadowColor: Color.fromARGB(255, 120, 109, 300),
+              shape: RoundedRectangleBorder(
+                  borderRadius: BorderRadius.circular(10)),
+              child: Padding(
+                  padding: const EdgeInsets.all(16.0),
+                  child: Image(
+                    image: AssetImage(
+                      './images/water.png',
+                    ),
+                    alignment: Alignment.centerRight,
+                  )),
+            ),
+          ),
+          Container(
+            height: 200,
+            width: double.infinity,
+            child: Card(
+              margin: EdgeInsets.all(32),
+              color: Color.fromARGB(255, 201, 231, 218),
+              elevation: 20,
+              shadowColor: Color.fromARGB(255, 120, 109, 300),
+              shape: RoundedRectangleBorder(
+                  borderRadius: BorderRadius.circular(10)),
+              child: Padding(
+                  padding: const EdgeInsets.all(16.0),
+                  child: Image(
+                    image: AssetImage(
+                      './images/water.png',
+                    ),
+                    alignment: Alignment.centerRight,
+                  )),
+            ),
+          ),
+          Container(
+            height: 200,
+            width: double.infinity,
+            child: Card(
+              margin: EdgeInsets.all(32),
+              color: Color.fromARGB(255, 201, 231, 218),
+              elevation: 20,
+              shadowColor: Color.fromARGB(255, 120, 109, 300),
+              shape: RoundedRectangleBorder(
+                  borderRadius: BorderRadius.circular(10)),
+              child: Padding(
+                  padding: const EdgeInsets.all(16.0),
+                  child: Image(
+                    image: AssetImage(
+                      './images/water.png',
+                    ),
+                    alignment: Alignment.centerRight,
+                  )),
+            ),
+          ),
           // Container(
           //   height: 200,
           //   width: double.infinity,
