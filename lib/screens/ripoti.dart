@@ -18,16 +18,11 @@ class Ripoti extends StatelessWidget {
               'Karibu katika ukurasa wa kuangalia na kutengeneza ripoti za kazi zilizofanyika.',
               style: GoogleFonts.spaceMono(fontSize: 18),
             ),
-            SizedBox(
-              height: 12,
+            Image.asset(
+              'images/ujazo.png',
+              height: 70,
+              width: 70,
             ),
-            Text(
-              '@Ujazo',
-              style: GoogleFonts.spaceMono(
-                fontSize: 15,
-                fontWeight: FontWeight.bold,
-              ),
-            )
           ]),
         ),
       );

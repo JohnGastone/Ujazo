@@ -47,20 +47,14 @@ class MainScreen extends StatelessWidget {
               color: Color.fromARGB(255, 177, 120, 120),
             ),
           ),
-          IconButton(
-            onPressed: () {},
-            icon: const Icon(
-              Icons.notifications,
-              color: Color.fromARGB(255, 177, 120, 120),
-            ),
-          ),
           Container(
-              margin: const EdgeInsets.only(top: 5, right: 16, bottom: 5),
-              child: CircleAvatar(
-                child: const Icon(
-                  Icons.person_sharp,
-                ),
-              ))
+            margin: const EdgeInsets.only(top: 5, right: 16, bottom: 5),
+            child: Image.asset(
+              'images/ujazo.png',
+              height: 100,
+              width: 100,
+            ),
+          )
         ],
       ),
       drawer: const SideMenu(),

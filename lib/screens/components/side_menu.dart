@@ -164,12 +164,12 @@ class DrawerListTile extends StatelessWidget {
       horizontalTitleGap: 0,
       leading: Icon(
         icon,
-        color: Colors.grey,
+        color: kDarkBlue1,
         size: 30,
       ),
       title: Text(
         title,
-        style: GoogleFonts.spaceMono(color: Colors.grey, fontSize: 20),
+        style: GoogleFonts.spaceMono(color: kDarkBlue, fontSize: 20),
       ),
     );
   }
