@@ -14,6 +14,7 @@ class BarChartContentMwezi extends StatelessWidget {
   Widget build(BuildContext context) {
     return BarChart(
       BarChartData(
+        groupsSpace: 8,
         titlesData: FlTitlesData(
           leftTitles: SideTitles(showTitles: false),
           bottomTitles: SideTitles(
@@ -24,13 +25,13 @@ class BarChartContentMwezi extends StatelessWidget {
             getTitles: (value) {
               switch (value.toInt()) {
                 case 1:
-                  return 'Wiki ya 1';
+                  return 'Wiki-1';
                 case 2:
-                  return 'Wiki ya 2';
+                  return 'Wiki-2';
                 case 3:
-                  return 'Wiki ya 3';
+                  return 'Wiki-3';
                 case 4:
-                  return 'Wiki ya 4';
+                  return 'Wiki-4';
                 case 5:
                   return 'Wastani';
               }
