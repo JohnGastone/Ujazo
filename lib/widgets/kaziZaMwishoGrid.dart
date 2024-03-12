@@ -2,6 +2,7 @@
 
 import 'package:dashboard/data/data.dart';
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 
 class KaziZaMwishoGrid extends StatelessWidget {
   const KaziZaMwishoGrid({Key? key}) : super(key: key);
@@ -48,14 +49,14 @@ class KaziZaMwishoGrid extends StatelessWidget {
                       Text(
                         kaziZaMwisho[index].heading,
                         maxLines: 1,
-                        style: TextStyle(
-                            fontSize: MediaQuery.of(context).size.width * 0.035,
-                            fontWeight: FontWeight.bold,
-                            overflow: TextOverflow.ellipsis),
+                        style: GoogleFonts.spaceMono(
+                          fontSize: MediaQuery.of(context).size.width * 0.035,
+                          fontWeight: FontWeight.bold,
+                        ),
                       ),
                       Text(
                         kaziZaMwisho[index].subHeading,
-                        style: TextStyle(
+                        style: GoogleFonts.spaceMono(
                           color: Colors.grey,
                           fontSize: MediaQuery.of(context).size.width * 0.03,
                         ),

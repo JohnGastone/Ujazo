@@ -1,6 +1,7 @@
 import 'package:dashboard/data/data.dart';
 import 'package:flutter/material.dart';
 import 'package:percent_indicator/percent_indicator.dart';
+import 'package:google_fonts/google_fonts.dart';
 
 class KinywajiGrid extends StatelessWidget {
   const KinywajiGrid({Key? key}) : super(key: key);
@@ -31,11 +32,11 @@ class KinywajiGrid extends StatelessWidget {
                     children: [
                       Text(
                         kinywaji[index].text,
-                        style: const TextStyle(color: Colors.white),
+                        style: GoogleFonts.spaceMono(color: Colors.white),
                       ),
                       Text(
                         kinywaji[index].kinywaji,
-                        style: const TextStyle(color: Colors.white),
+                        style: GoogleFonts.spaceMono(color: Colors.white),
                       ),
                       CircularPercentIndicator(
                         radius: 30,
@@ -47,7 +48,7 @@ class KinywajiGrid extends StatelessWidget {
                         progressColor: Colors.white,
                         center: Text(
                           "${kinywaji[index].percent}%",
-                          style: const TextStyle(color: Colors.white),
+                          style: GoogleFonts.spaceMono(color: Colors.white),
                         ),
                       )
                     ],

@@ -1,4 +1,7 @@
+// ignore_for_file: prefer_const_constructors
+
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 
 import '../constant.dart';
 
@@ -11,10 +14,11 @@ class KaziZaMwishoHeader extends StatelessWidget {
       mainAxisAlignment: MainAxisAlignment.spaceBetween,
       children: [
         Row(
-          children: const [
+          children: [
             Text(
-              "Kazi ya Mwisho ",
-              style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold),
+              "Kazi za Mwisho ",
+              style: GoogleFonts.spaceMono(
+                  fontSize: 20, fontWeight: FontWeight.bold),
             ),
             Icon(
               Icons.card_giftcard,
@@ -24,19 +28,19 @@ class KaziZaMwishoHeader extends StatelessWidget {
           ],
         ),
         Row(
-          children: const [
+          children: [
             Icon(
               Icons.calendar_month_outlined,
               color: Colors.grey,
-              size: 18,
+              size: 15,
             ),
             SizedBox(
               width: 5,
             ),
             Text(
               "18 Julai 2023",
-              style: TextStyle(
-                  fontSize: 16,
+              style: GoogleFonts.spaceMono(
+                  fontSize: 13,
                   color: kDarkBlue,
                   height: 2,
                   fontWeight: FontWeight.bold),

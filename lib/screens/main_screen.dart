@@ -7,6 +7,7 @@ import 'package:dashboard/widgets/bar_chart_wiki.dart';
 import 'package:dashboard/widgets/vinywaji_grid.dart';
 import 'package:dashboard/widgets/statistics_grid.dart';
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 
 import '../constant.dart';
 import '../widgets/bar_chart_mwezi.dart';
@@ -71,13 +72,13 @@ class MainScreen extends StatelessWidget {
             crossAxisAlignment: CrossAxisAlignment.stretch,
             children: [
               RichText(
-                text: const TextSpan(
+                text: TextSpan(
                   text: "Habari ",
-                  style: TextStyle(color: kDarkBlue, fontSize: 20),
+                  style: GoogleFonts.spaceMono(color: kDarkBlue, fontSize: 20),
                   children: [
                     TextSpan(
                       text: "Opareta",
-                      style: TextStyle(
+                      style: GoogleFonts.spaceMono(
                           color: kDarkBlue, fontWeight: FontWeight.bold),
                     ),
                     TextSpan(
@@ -91,10 +92,11 @@ class MainScreen extends StatelessWidget {
               ),
               Row(
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                children: const [
+                children: [
                   Text(
                     "Kazi Zilizopita",
-                    style: TextStyle(fontSize: 26, fontWeight: FontWeight.bold),
+                    style: GoogleFonts.spaceMono(
+                        fontSize: 26, fontWeight: FontWeight.bold),
                   ),
                   Icon(
                     Icons.calendar_month_rounded,
@@ -120,10 +122,11 @@ class MainScreen extends StatelessWidget {
               ),
               Row(
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                children: const [
+                children: [
                   Text(
                     "Takwimu",
-                    style: TextStyle(fontSize: 26, fontWeight: FontWeight.bold),
+                    style: GoogleFonts.spaceMono(
+                        fontSize: 26, fontWeight: FontWeight.bold),
                   ),
                   Icon(Icons.bar_chart, color: Colors.blueGrey)
                 ],
