@@ -7,6 +7,27 @@ import 'components/side_menu.dart';
 
 class KaziZilizopita extends StatelessWidget {
   const KaziZilizopita({super.key});
+  Widget buildQuoteCard() => Card(
+        child: Padding(
+          padding: const EdgeInsets.all(12.0),
+          child: Column(children: [
+            Text(
+              'Karibu katika ukurasa wa kuangalia na kutengeneza ripoti za kazi zilizofanyika.',
+              style: GoogleFonts.spaceMono(fontSize: 18),
+            ),
+            SizedBox(
+              height: 12,
+            ),
+            Text(
+              '@Ujazo',
+              style: GoogleFonts.spaceMono(
+                fontSize: 15,
+                fontWeight: FontWeight.bold,
+              ),
+            )
+          ]),
+        ),
+      );
 
   @override
   Widget build(BuildContext context) {
