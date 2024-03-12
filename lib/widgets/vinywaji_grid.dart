@@ -32,7 +32,8 @@ class KinywajiGrid extends StatelessWidget {
                     children: [
                       Text(
                         kinywaji[index].name,
-                        style: GoogleFonts.spaceMono(color: Colors.white),
+                        style: GoogleFonts.spaceMono(
+                            color: Colors.white, fontSize: 18),
                       ),
                       Text(
                         kinywaji[index].amount,
