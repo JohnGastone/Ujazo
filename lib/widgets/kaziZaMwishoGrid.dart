@@ -50,7 +50,7 @@ class KaziZaMwishoGrid extends StatelessWidget {
                         kaziZaMwisho[index].heading,
                         maxLines: 1,
                         style: GoogleFonts.spaceMono(
-                          fontSize: MediaQuery.of(context).size.width * 0.035,
+                          fontSize: MediaQuery.of(context).size.width * 0.050,
                           fontWeight: FontWeight.bold,
                         ),
                       ),
@@ -58,7 +58,7 @@ class KaziZaMwishoGrid extends StatelessWidget {
                         kaziZaMwisho[index].subHeading,
                         style: GoogleFonts.spaceMono(
                           color: Colors.grey,
-                          fontSize: MediaQuery.of(context).size.width * 0.03,
+                          fontSize: MediaQuery.of(context).size.width * 0.035,
                         ),
                       )
                     ],
