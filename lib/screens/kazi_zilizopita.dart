@@ -46,30 +46,7 @@ class KaziZilizopita extends StatelessWidget {
         ),
         body: ListView(
           children: [
-            // Container(
-            //   height: 200,
-            //   width: double.infinity,
-            //   child: Card(
-            //     margin: EdgeInsets.all(32),
-            //     color: Color.fromARGB(255, 201, 231, 218),
-            //     elevation: 20,
-            //     shadowColor: Color.fromARGB(255, 120, 109, 300),
-            //     shape: RoundedRectangleBorder(
-            //         borderRadius: BorderRadius.circular(10)),
-            //     child: Column(
-            //       children: const [
-            //         Padding(
-            //             padding: EdgeInsets.all(16.0),
-            //             child: Image(
-            //               image: AssetImage(
-            //                 './images/juice.png',
-            //               ),
-            //               alignment: Alignment.centerRight,
-            //             )),
-            //       ],
-            //     ),
-            //   ),
-            // ),
+            buildQuoteCard(),
             Container(
               height: 200,
               width: double.infinity,
@@ -130,7 +107,6 @@ class KaziZilizopita extends StatelessWidget {
                     )),
               ),
             ),
-
             Container(
               height: 200,
               width: double.infinity,
