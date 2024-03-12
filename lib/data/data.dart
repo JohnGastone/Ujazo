@@ -6,29 +6,29 @@ import '../model/statistics_model.dart';
 
 final List<Kinywaji> kinywaji = [
   Kinywaji(
-      text: "Juice",
-      kinywaji: "Lita 380",
+      name: "Juice",
+      amount: "Lita 380",
       imageUrl: "images/juice.png",
       percent: 75,
       backImage: "images/box/box1.png",
       color: kDarkBlue),
   Kinywaji(
-      text: "Maji",
-      kinywaji: "Lita 730",
+      name: "Maji",
+      amount: "Lita 730",
       imageUrl: "images/water.png",
       percent: 50,
       backImage: "images/box/box2.png",
       color: kOrange),
   Kinywaji(
-      text: "Soda",
-      kinywaji: "Lita 350",
+      name: "Soda",
+      amount: "Lita 350",
       imageUrl: "images/soda.png",
       percent: 59,
       backImage: "images/box/box3.png",
       color: kGreen),
   Kinywaji(
-      text: "Mvinyo",
-      kinywaji: "Lita 75",
+      name: "Mvinyo",
+      amount: "Lita 75",
       imageUrl: "images/wine.png",
       percent: 75,
       backImage: "images/box/box4.png",

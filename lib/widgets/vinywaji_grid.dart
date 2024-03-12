@@ -31,11 +31,11 @@ class KinywajiGrid extends StatelessWidget {
                     mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                     children: [
                       Text(
-                        kinywaji[index].text,
+                        kinywaji[index].name,
                         style: GoogleFonts.spaceMono(color: Colors.white),
                       ),
                       Text(
-                        kinywaji[index].kinywaji,
+                        kinywaji[index].amount,
                         style: GoogleFonts.spaceMono(color: Colors.white),
                       ),
                       CircularPercentIndicator(
