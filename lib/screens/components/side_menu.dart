@@ -2,8 +2,8 @@
 
 import 'package:dashboard/screens/kazi_mpya.dart';
 import 'package:dashboard/screens/kazi_zilizopita.dart';
+import 'package:dashboard/screens/kuhusu_mashine.dart';
 //import 'package:dashboard/screens/kuhusu_mashine.dart';
-import '../../widgets/datePicker.dart';
 import 'package:dashboard/screens/kuhusu_opareta.dart';
 import 'package:dashboard/screens/main_screen.dart';
 import 'package:dashboard/screens/ripoti.dart';
@@ -83,8 +83,8 @@ class SideMenu extends StatelessWidget {
             onTap: () {
               // Migrating to Kuhusu Mashine screen
               Navigator.pop(context);
-              Navigator.of(context).push(
-                  MaterialPageRoute(builder: (context) => const DatePicker()));
+              Navigator.of(context).push(MaterialPageRoute(
+                  builder: (context) => const KuhusuMashine()));
             },
           ),
           const SizedBox(
