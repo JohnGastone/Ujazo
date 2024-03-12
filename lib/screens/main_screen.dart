@@ -1,6 +1,7 @@
 // ignore_for_file: prefer_const_constructors, prefer_typing_uninitialized_variables, unused_label
 
 import 'package:dashboard/screens/components/chart_container.dart';
+import 'package:dashboard/widgets/bar_chart_siku.dart';
 import 'package:dashboard/widgets/grafu_mwezi.dart';
 import 'package:dashboard/widgets/grafu_siku.dart';
 import 'package:dashboard/widgets/grafu_wiki.dart';
@@ -131,7 +132,7 @@ class MainScreen extends StatelessWidget {
                 height: 15,
               ),
               const ActivityHeaderSiku(),
-              const ChartContainer(chart: BarChartContentWiki()),
+              const ChartContainer(chart: BarChartContentSiku()),
               const ActivityHeaderWiki(),
               const ChartContainer(chart: BarChartContentWiki()),
               const ActivityHeaderMwezi(),
