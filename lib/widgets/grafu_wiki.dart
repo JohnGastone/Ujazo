@@ -22,21 +22,21 @@ class ActivityHeaderWiki extends StatelessWidget {
           children: [
             Text(
               "Siku",
-              style: GoogleFonts.spaceMono(color: Colors.grey),
+              style: GoogleFonts.spaceMono(color: Colors.grey, fontSize: 15),
             ),
             SizedBox(
               width: 7,
             ),
             Text(
               "Wiki",
-              style: GoogleFonts.spaceMono(color: kDarkBlue),
+              style: GoogleFonts.spaceMono(color: kDarkBlue, fontSize: 15),
             ),
             SizedBox(
               width: 7,
             ),
             Text(
               "Mwezi",
-              style: GoogleFonts.spaceMono(color: Colors.grey),
+              style: GoogleFonts.spaceMono(color: Colors.grey, fontSize: 15),
             )
           ],
         )
