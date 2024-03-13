@@ -38,7 +38,7 @@ class BarChartContentSiku extends StatelessWidget {
                 case 7:
                   return 'Usik';
                 case 8:
-                  return 'Wast';
+                  return 'Wastani';
               }
               return '';
             },

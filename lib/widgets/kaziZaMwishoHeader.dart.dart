@@ -4,6 +4,7 @@ import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
 import '../constant.dart';
+import '../screens/takwimu.dart';
 
 class KaziZaMwishoHeader extends StatelessWidget {
   const KaziZaMwishoHeader({Key? key}) : super(key: key);
@@ -20,30 +21,29 @@ class KaziZaMwishoHeader extends StatelessWidget {
               style: GoogleFonts.spaceMono(
                   fontSize: 20, fontWeight: FontWeight.bold),
             ),
-            Icon(
-              Icons.card_giftcard,
-              color: Colors.grey,
-              size: 18,
-            )
-          ],
-        ),
-        Row(
-          children: [
-            Icon(
-              Icons.calendar_month_outlined,
-              color: Colors.grey,
-              size: 15,
-            ),
             SizedBox(
-              width: 5,
+              width: 50,
             ),
             Text(
-              "18 Julai 2023",
+              "Soma zaidi",
               style: GoogleFonts.spaceMono(
-                  fontSize: 13,
-                  color: kDarkBlue,
-                  height: 2,
-                  fontWeight: FontWeight.bold),
+                  fontSize: 15,
+                  fontWeight: FontWeight.w300,
+                  color: Color.fromARGB(255, 124, 112, 112)),
+            ),
+            SizedBox(
+              width: 10,
+            ),
+            InkWell(
+              onTap: () {
+                Navigator.of(context)
+                    .push(MaterialPageRoute(builder: (context) => Takwimu()));
+              },
+              child: Image.asset(
+                'images/pic/Smart.png',
+                width: 30,
+                height: 30,
+              ),
             )
           ],
         ),
