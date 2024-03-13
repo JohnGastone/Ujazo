@@ -45,14 +45,14 @@ class TestScreen extends StatelessWidget {
     Introduction(
       title: 'Pendekeza',
       subTitle: 'Shauri maboresho ya huduma',
-      imageUrl: 'images/pic/reco.png',
+      imageUrl: 'images/pic/19.png',
       titleTextStyle: GoogleFonts.spaceMono(fontSize: 30),
       subTitleTextStyle: GoogleFonts.spaceMono(fontSize: 18),
     ),
     Introduction(
       title: 'Data',
       subTitle: 'Tuma data kwa urahisi',
-      imageUrl: 'images/pic/data.png',
+      imageUrl: 'images/pic/1.png',
       titleTextStyle: GoogleFonts.spaceMono(fontSize: 30),
       subTitleTextStyle: GoogleFonts.spaceMono(fontSize: 18),
     ),
