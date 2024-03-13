@@ -1,6 +1,6 @@
 // ignore_for_file: prefer_const_constructors
 
-import 'package:dashboard/screens/kazi_mpya.dart';
+import 'package:dashboard/screens/takwimu.dart';
 import 'package:dashboard/screens/kazi_zilizopita.dart';
 import 'package:dashboard/screens/kuhusu_mashine.dart';
 //import 'package:dashboard/screens/kuhusu_mashine.dart';

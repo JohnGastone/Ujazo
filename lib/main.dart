@@ -1,5 +1,5 @@
 import 'package:dashboard/screens/intro_Screen.dart';
-import 'package:dashboard/screens/kazi_mpya.dart';
+import 'package:dashboard/screens/takwimu.dart';
 import 'package:dashboard/screens/main_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
