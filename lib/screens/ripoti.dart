@@ -1,14 +1,35 @@
-// ignore_for_file: prefer_const_constructors, prefer_const_literals_to_create_immutables, sort_child_properties_last, unused_import
+// ignore_for_file: prefer_const_constructors, prefer_const_literals_to_create_immutables, sort_child_properties_last, unused_import, import_of_legacy_library_into_null_safe, use_build_context_synchronously
 
 import 'package:dashboard/screens/kazi_mpya.dart';
 import 'package:expandable_menu/expandable_menu.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import '../constant.dart';
+import '../widgets/pdfScreen.dart';
 import 'components/side_menu.dart';
+import 'dart:io';
+import 'package:path_provider/path_provider.dart';
+import 'package:pdf/widgets.dart' as pw;
+import 'package:flutter_full_pdf_viewer/flutter_full_pdf_viewer.dart';
 
 class Ripoti extends StatelessWidget {
   const Ripoti({super.key});
+
+  Future<String> generateAndSavePdf() async {
+    final pdf = pw.Document();
+    pdf.addPage(
+      pw.Page(
+        build: (pw.Context context) => pw.Center(
+          child: pw.Text('This is your PDF report!'),
+        ),
+      ),
+    );
+
+    final directory = await getApplicationDocumentsDirectory();
+    final file = File('${directory.path}/report.pdf');
+    await file.writeAsBytes(await pdf.save());
+    return file.path;
+  }
 
   Widget buildQuoteCard() => Card(
         child: Padding(
@@ -102,9 +123,15 @@ class Ripoti extends StatelessWidget {
                       height: 40.0,
                       items: [
                         InkWell(
-                          onTap: (() {
-                            Navigator.pop(context);
-                          }),
+                          onTap: () async {
+                            final path = await generateAndSavePdf();
+                            Navigator.push(
+                              context,
+                              MaterialPageRoute(
+                                builder: (context) => PDFScreen(path: path),
+                              ),
+                            );
+                          },
                           child: Icon(
                             Icons.picture_as_pdf,
                             color: Color.fromARGB(255, 77, 72, 72),
