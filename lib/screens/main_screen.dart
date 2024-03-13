@@ -1,6 +1,7 @@
 // ignore_for_file: prefer_const_constructors, prefer_typing_uninitialized_variables, unused_label
 
 import 'package:dashboard/screens/components/chart_container.dart';
+import 'package:dashboard/screens/kazi_mpya.dart';
 import 'package:dashboard/widgets/bar_chart_siku.dart';
 import 'package:dashboard/widgets/grafu_mwezi.dart';
 import 'package:dashboard/widgets/grafu_siku.dart';
@@ -141,7 +142,27 @@ class MainScreen extends StatelessWidget {
                     style: GoogleFonts.spaceMono(
                         fontSize: 26, fontWeight: FontWeight.bold),
                   ),
-                  Icon(Icons.bar_chart, color: Colors.blueGrey)
+                  SizedBox(
+                    width: 80,
+                  ),
+                  Text(
+                    "Soma zaidi",
+                    style: GoogleFonts.spaceMono(
+                        fontSize: 15,
+                        fontWeight: FontWeight.w300,
+                        color: Color.fromARGB(255, 124, 112, 112)),
+                  ),
+                  InkWell(
+                    onTap: () {
+                      Navigator.of(context).push(
+                          MaterialPageRoute(builder: (context) => KaziMpya()));
+                    },
+                    child: Image.asset(
+                      'images/pic/Smart.png',
+                      width: 30,
+                      height: 30,
+                    ),
+                  )
                 ],
               ),
               const SizedBox(
