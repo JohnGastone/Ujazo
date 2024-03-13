@@ -70,14 +70,26 @@ class KaziZilizopita extends StatelessWidget {
                             Row(
                               children: [
                                 Text(
-                                  'Pick a date',
+                                  'Chagua tarehe',
                                   style: GoogleFonts.spaceMono(
-                                      fontSize: 18, color: kDarkBlue),
+                                      fontSize: 15, color: kDarkBlue),
                                 ),
                                 SizedBox(
                                   width: 5,
                                 ),
                                 Icon(TernavIcons.lightOutline.calender_3)
+                              ],
+                            ),
+                            Text(
+                              "Zilizokamilika:",
+                              style: GoogleFonts.spaceMono(fontSize: 13),
+                            ),
+                            Row(
+                              children: [
+                                Text(
+                                  '-',
+                                  style: GoogleFonts.spaceMono(),
+                                )
                               ],
                             )
                           ],
