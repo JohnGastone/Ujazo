@@ -101,18 +101,15 @@ class Ripoti extends StatelessWidget {
                       width: 40.0,
                       height: 40.0,
                       items: [
-                        Icon(
-                          Icons.picture_as_pdf,
-                          color: Color.fromARGB(255, 77, 72, 72),
+                        InkWell(
+                          onTap: (() {
+                            Navigator.pop(context);
+                          }),
+                          child: Icon(
+                            Icons.picture_as_pdf,
+                            color: Color.fromARGB(255, 77, 72, 72),
+                          ),
                         ),
-                        Icon(
-                          Icons.image_outlined,
-                          color: Color.fromARGB(255, 77, 72, 72),
-                        ),
-                        Text(
-                          'data',
-                          style: GoogleFonts.lato(fontSize: 45),
-                        )
                       ],
                     )),
               ],
