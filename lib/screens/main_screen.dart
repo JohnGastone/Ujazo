@@ -92,12 +92,12 @@ class MainScreen extends StatelessWidget {
                         fontSize: 26, fontWeight: FontWeight.bold),
                   ),
                   SizedBox(
-                    width: 4,
+                    width: 10,
                   ),
                   Text(
                     "Soma zaidi",
                     style: GoogleFonts.spaceMono(
-                        fontSize: 12,
+                        fontSize: 15,
                         fontWeight: FontWeight.w300,
                         color: Color.fromARGB(255, 124, 112, 112)),
                   ),
