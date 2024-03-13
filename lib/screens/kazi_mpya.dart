@@ -4,8 +4,8 @@ import 'package:dashboard/screens/components/side_menu.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
-class KaziMpya extends StatelessWidget {
-  const KaziMpya({super.key});
+class Takwimu extends StatelessWidget {
+  const Takwimu({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -17,7 +17,7 @@ class KaziMpya extends StatelessWidget {
                 bottomLeft: Radius.circular(15),
                 bottomRight: Radius.circular(15))),
         title: Text(
-          'Kazi Mpya',
+          'Takwimu',
           style:
               GoogleFonts.spaceMono(fontSize: 20, fontWeight: FontWeight.w700),
         ),
@@ -25,7 +25,7 @@ class KaziMpya extends StatelessWidget {
       ),
       body: Container(
         decoration: const BoxDecoration(
-            image: DecorationImage(image: AssetImage('images/drop.jpg'))),
+            image: DecorationImage(image: AssetImage('images/pic/10.png'))),
       ),
     );
   }

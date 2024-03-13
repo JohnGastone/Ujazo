@@ -47,7 +47,7 @@ class SideMenu extends StatelessWidget {
               // Migrating to Kazi Mpya screen
               Navigator.pop(context);
               Navigator.of(context).push(
-                  MaterialPageRoute(builder: (context) => const KaziMpya()));
+                  MaterialPageRoute(builder: (context) => const Takwimu()));
             },
           ),
           DrawerListTile(

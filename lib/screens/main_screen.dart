@@ -155,7 +155,7 @@ class MainScreen extends StatelessWidget {
                   InkWell(
                     onTap: () {
                       Navigator.of(context).push(
-                          MaterialPageRoute(builder: (context) => KaziMpya()));
+                          MaterialPageRoute(builder: (context) => Takwimu()));
                     },
                     child: Image.asset(
                       'images/pic/Smart.png',
