@@ -92,12 +92,22 @@ class MainScreen extends StatelessWidget {
                         fontSize: 26, fontWeight: FontWeight.bold),
                   ),
                   SizedBox(
-                    width: 10,
+                    width: 4,
                   ),
-                  Icon(
-                    Icons.calendar_month_rounded,
-                    color: Colors.blueGrey,
-                    size: 18,
+                  Text(
+                    "Soma zaidi",
+                    style: GoogleFonts.spaceMono(
+                        fontSize: 12,
+                        fontWeight: FontWeight.w300,
+                        color: Color.fromARGB(255, 124, 112, 112)),
+                  ),
+                  SizedBox(
+                    width: 4,
+                  ),
+                  Image.asset(
+                    'images/pic/Smart.png',
+                    width: 30,
+                    height: 30,
                   )
                 ],
               ),
