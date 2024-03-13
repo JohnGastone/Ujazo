@@ -84,12 +84,15 @@ class MainScreen extends StatelessWidget {
                 height: 15,
               ),
               Row(
-                mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                //mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: [
                   Text(
                     "Kazi Zilizopita",
                     style: GoogleFonts.spaceMono(
                         fontSize: 26, fontWeight: FontWeight.bold),
+                  ),
+                  SizedBox(
+                    width: 10,
                   ),
                   Icon(
                     Icons.calendar_month_rounded,
