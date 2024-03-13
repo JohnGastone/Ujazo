@@ -41,8 +41,8 @@ class SideMenu extends StatelessWidget {
             },
           ),
           DrawerListTile(
-            icon: TernavIcons.lightOutline.add,
-            title: "Kazi Mpya.",
+            icon: TernavIcons.lightOutline.statistics,
+            title: "Takwimu.",
             onTap: () {
               // Migrating to Kazi Mpya screen
               Navigator.pop(context);
