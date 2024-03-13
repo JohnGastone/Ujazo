@@ -1,7 +1,9 @@
 // ignore_for_file: prefer_const_constructors, sized_box_for_whitespace
 
+import 'package:dashboard/constant.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:ternav_icons/ternav_icons.dart';
 
 import 'components/side_menu.dart';
 
@@ -43,7 +45,7 @@ class KaziZilizopita extends StatelessWidget {
           children: [
             buildQuoteCard(),
             Container(
-              height: 200,
+              height: 300,
               width: double.infinity,
               child: Card(
                 margin: EdgeInsets.all(32),
@@ -53,17 +55,39 @@ class KaziZilizopita extends StatelessWidget {
                 shape: RoundedRectangleBorder(
                     borderRadius: BorderRadius.circular(10)),
                 child: Padding(
-                    padding: const EdgeInsets.all(16.0),
-                    child: Image(
-                      image: AssetImage(
-                        './images/juice.png',
-                      ),
-                      alignment: Alignment.centerLeft,
-                    )),
+                  padding: const EdgeInsets.only(right: 10, top: 10),
+                  child: Row(
+                      mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                      children: [
+                        Image(
+                          image: AssetImage(
+                            './images/juice.png',
+                          ),
+                          alignment: Alignment.centerLeft,
+                        ),
+                        Column(
+                          children: [
+                            Row(
+                              children: [
+                                Text(
+                                  'Pick a date',
+                                  style: GoogleFonts.spaceMono(
+                                      fontSize: 18, color: kDarkBlue),
+                                ),
+                                SizedBox(
+                                  width: 5,
+                                ),
+                                Icon(TernavIcons.lightOutline.calender_3)
+                              ],
+                            )
+                          ],
+                        )
+                      ]),
+                ),
               ),
             ),
             Container(
-              height: 200,
+              height: 300,
               width: double.infinity,
               child: Card(
                 margin: EdgeInsets.all(32),
@@ -83,7 +107,7 @@ class KaziZilizopita extends StatelessWidget {
               ),
             ),
             Container(
-              height: 200,
+              height: 300,
               width: double.infinity,
               child: Card(
                 margin: EdgeInsets.all(32),
@@ -103,7 +127,7 @@ class KaziZilizopita extends StatelessWidget {
               ),
             ),
             Container(
-              height: 200,
+              height: 300,
               width: double.infinity,
               child: Card(
                 margin: EdgeInsets.all(32),
