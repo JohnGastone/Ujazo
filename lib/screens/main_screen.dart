@@ -143,7 +143,7 @@ class MainScreen extends StatelessWidget {
                         fontSize: 26, fontWeight: FontWeight.bold),
                   ),
                   SizedBox(
-                    width: 80,
+                    width: 120,
                   ),
                   Text(
                     "Soma zaidi",
