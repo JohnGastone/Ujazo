@@ -39,18 +39,6 @@ class MainScreen extends StatelessWidget {
         iconTheme:
             const IconThemeData(color: Color.fromARGB(255, 177, 120, 120)),
         actions: [
-          // IconButton(
-          //   onPressed: () {
-          //     showSearch(
-          //       context: context,
-          //       delegate: CustomSearchDelegate(),
-          //     );
-          //   },
-          //   icon: const Icon(
-          //     Icons.search,
-          //     color: Color.fromARGB(255, 177, 120, 120),
-          //   ),
-          // ),
           Image.asset(
             'images/ujazo.png',
             height: 150,
@@ -86,7 +74,6 @@ class MainScreen extends StatelessWidget {
                 height: 15,
               ),
               Row(
-                //mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: [
                   Text(
                     "Kazi Zilizopita",
