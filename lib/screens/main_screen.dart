@@ -16,6 +16,7 @@ import '../widgets/bar_chart_mwezi.dart';
 import '../widgets/kaziZaMwishoGrid.dart';
 import '../widgets/kaziZaMwishoHeader.dart.dart';
 import 'components/side_menu.dart';
+import 'kazi_zilizopita.dart';
 
 class MainScreen extends StatelessWidget {
   const MainScreen({Key? key}) : super(key: key);
@@ -104,10 +105,16 @@ class MainScreen extends StatelessWidget {
                   SizedBox(
                     width: 4,
                   ),
-                  Image.asset(
-                    'images/pic/Smart.png',
-                    width: 30,
-                    height: 30,
+                  InkWell(
+                    onTap: () {
+                      Navigator.of(context).push(MaterialPageRoute(
+                          builder: (context) => KaziZilizopita()));
+                    },
+                    child: Image.asset(
+                      'images/pic/Smart.png',
+                      width: 30,
+                      height: 30,
+                    ),
                   )
                 ],
               ),
