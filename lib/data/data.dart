@@ -86,3 +86,30 @@ final List<Takwimu> takwimu = [
     number: "Nzuri",
   )
 ];
+
+final List<Zilizopita> zilizopita = [
+  Zilizopita(
+      title: 'Juice | Sharubati',
+      image: "images/juice.png",
+      zilizokamilika: 4354262,
+      zinazoendelea: 54233,
+      ujazo: 343543),
+  Zilizopita(
+      title: 'Juice | Sharubati',
+      image: "images/soda.png",
+      zilizokamilika: 4354262,
+      zinazoendelea: 54233,
+      ujazo: 343543),
+  Zilizopita(
+      title: 'Juice | Sharubati',
+      image: "images/water.png",
+      zilizokamilika: 4354262,
+      zinazoendelea: 54233,
+      ujazo: 343543),
+  Zilizopita(
+      title: 'Juice | Sharubati',
+      image: "images/wine.png",
+      zilizokamilika: 4354262,
+      zinazoendelea: 54233,
+      ujazo: 343543),
+];

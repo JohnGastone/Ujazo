@@ -17,3 +17,19 @@ class Kinywaji {
     required this.color,
   });
 }
+
+class Zilizopita {
+  final String title;
+  final String image;
+  final double zilizokamilika;
+  final double zinazoendelea;
+  final double ujazo;
+
+  Zilizopita({
+    required this.title,
+    required this.image,
+    required this.zilizokamilika,
+    required this.zinazoendelea,
+    required this.ujazo,
+  });
+}

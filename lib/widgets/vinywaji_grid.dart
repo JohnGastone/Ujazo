@@ -2,6 +2,7 @@
 
 import 'package:dashboard/data/data.dart';
 import 'package:dashboard/screens/kazi_zilizopita.dart';
+import 'package:dashboard/widgets/zilizopitaTester.dart';
 import 'package:flutter/material.dart';
 import 'package:percent_indicator/percent_indicator.dart';
 import 'package:google_fonts/google_fonts.dart';
@@ -20,8 +21,8 @@ class KinywajiGrid extends StatelessWidget {
         itemBuilder: (context, index) {
           return InkWell(
             onTap: () {
-              Navigator.of(context).push(
-                  MaterialPageRoute(builder: (context) => KaziZilizopita()));
+              Navigator.of(context)
+                  .push(MaterialPageRoute(builder: (context) => Zilizopita()));
             },
             child: Container(
               decoration: BoxDecoration(
